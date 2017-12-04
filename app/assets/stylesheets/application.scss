@@ -19,15 +19,17 @@ $body-bg: transparent;
 
 body, html {
   height: 100%;
-  margin: -10px 0px 0px 0px;
   overflow: hidden;
   color: white;
   background-color: black;
+  font-family: sans-serif;
+  letter-spacing: 3px;
 }
+
 
 #homepage {
   /* The image used */
-    background-image: url("igor-ovsyannykov-277756.jpg");
+    background-image: url("kelly-sikkema-450720.jpg");
 
     /* Full height */
     height: 100%;
