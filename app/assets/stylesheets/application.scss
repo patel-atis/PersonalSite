@@ -68,43 +68,66 @@ body, html {
     font-weight:bold;
     vertical-align: middle;
     display: block;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
 }
 
-#button {
+#middle {
+  width: 100%;
+  text-align: center;
+}
+
+#main_buttons {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+//navbar styling
+
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+
+.container-fluid {
+  padding: 10px 15px 0px 15px;
+}
+
+.nav li {
+  margin: 10px;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+#collapse-icon {
+  background-color: transparent;
+  border: none;
+  margin-top: 22px;
+}
+
+.all_button {
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
     color: white;
-    font-size: 24px;
+    font-size: 3vh;
     border: 1px solid white;
     border-radius: 0;
     font-weight: normal;
+    width: 20vh;
 }
 
-
-#nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  width: 100%;
-  height: 23px;
-  margin-top: 15px;
+#main_contact {
+    margin-top: -8%;
 }
 
-#nav ul li {
-  display: inline;
-  float: right;
-  vertical-align: middle;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 18px;
-}
-
-#main_buttons {
-  display: block;
-  text-align: center;
-  margin-top: 40px;
+#logo {
+    width: 15vh;
+    height: 19%;
 }
