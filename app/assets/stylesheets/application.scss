@@ -46,17 +46,20 @@ body, html {
 }
 
 #container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
+//center area design
+
 #center_peice {
-  text-align: center;
-  vertical-align: middle;
-  display: block;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
 }
 
 #title {
