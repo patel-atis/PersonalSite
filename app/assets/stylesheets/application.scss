@@ -68,7 +68,7 @@ body, html {
     font-weight:bold;
     vertical-align: middle;
     display: block;
-    font-size: 40px;
+    font-size: 38px;
     letter-spacing: 10px;
     color: white;
 }
@@ -98,9 +98,21 @@ body, html {
 }
 
 .nav li {
-  margin: 10px;
   font-size: 14px;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 11px;
+}
+
+.nav li:not(:first-child):not(:last-child):before {
+    content: " | ";
+}
+
+#collapse {
+  float: right;
+  height: 100%;
+  padding: 15px 30px 15px 30px;
 }
 
 #collapse-icon {
@@ -124,7 +136,7 @@ body, html {
 }
 
 #main_contact {
-    margin-top: -8%;
+    margin-top: -5%;
 }
 
 #logo {
