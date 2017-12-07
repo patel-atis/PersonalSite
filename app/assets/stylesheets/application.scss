@@ -88,38 +88,30 @@ body, html {
 //navbar styling
 
 
-.navbar-inverse {
+#nav {
   background-color: transparent;
   border: none;
+  transition: all 1s ease;
+  padding: 5px;
 }
 
-.container-fluid {
-  padding: 10px 15px 0px 15px;
+.wrapper {
+  padding: 15px 15px 15px 15px;
+  color: white;
+  background-color: transparent;
 }
 
-.nav li {
-  font-size: 14px;
+.nav li a {
+  font-size: 18px;
   letter-spacing: 7px;
   height: 100%;
   vertical-align: middle;
   margin-left: 11px;
+  color: white;
+  height: 7vh;
+  padding: 5px;
 }
 
-.nav li:not(:first-child):not(:last-child):before {
-    content: " | ";
-}
-
-#collapse {
-  float: right;
-  height: 100%;
-  padding: 15px 30px 15px 30px;
-}
-
-#collapse-icon {
-  background-color: transparent;
-  border: none;
-  margin-top: 22px;
-}
 
 .all_button {
     background-color: Transparent;
@@ -128,18 +120,71 @@ body, html {
     cursor:pointer;
     overflow: hidden;
     color: white;
-    font-size: 3vh;
+    font-size: 18px;
     border: 1px solid white;
     border-radius: 0;
     font-weight: normal;
     width: 20vh;
+    height: 7vh;
 }
 
 #main_contact {
-    margin-top: -5%;
+    margin-top: 4px;
 }
 
 #logo {
     width: 15vh;
     height: 19%;
+    float: left;
+    border: 1px solid orange;
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+
+.burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(hamburger.png) no-repeat 98% center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    float: right;
+    border: 1px solid green;
+}
+
+nav {
+    height: 100%;
+    border: 1px solid blue;
+    float: right;
+    background-color: #222;
+    width: 80%;
+}
+
+nav ul {
+    overflow: hidden;
+    //height: 0px;
+    border: 1px solid purple;
+}
+
+nav ul.open {
+    height: auto;
+}
+
+nav ul li {
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
 }
