@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  get 'extras/me'
-
-  get 'extras/project'
-
-  get 'extras/resume'
 
   root 'contacts#new'
   resources :contacts
