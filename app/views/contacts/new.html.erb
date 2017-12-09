@@ -1,5 +1,5 @@
 
-<div id="container">
+<div id="home-container">
   <div id="middle">
     <div id="center_peice">
         <h1 id="title"> DEVELOPER. </h1>
@@ -12,10 +12,33 @@
   </div>
 </div>
 
+<div id="about-container">
+  <div id="about-content">
+  my about page
+  </div>
+</div>
+
+<div id="resume-container">
+  <div id="resume-content">
+  my resume page
+  </div>
+</div>
+
+<div id="projects-container">
+  <div id="projects-content">
+  my projects page
+  </div>
+</div>
+
+<div id="form-container">
+  <div id="form-content">
+  <%= render 'form', contact: @contact %>
+  </div>
+</div>
 
 
 
 
-<% render 'form', contact: @contact %>
+
 
 <% link_to 'Back', contacts_path %>
