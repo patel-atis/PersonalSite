@@ -18,6 +18,9 @@ ActiveRecord::Schema.define(version: 20171127220051) do
   create_table "contacts", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "name", limit: 30
+    t.string "email", limit: 30
+    t.string "phone", limit: 11
   end
 
 end
