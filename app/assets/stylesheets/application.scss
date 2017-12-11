@@ -201,12 +201,31 @@ body, html {
 }
 
 #form-content {
+  position: absolute;
+  top: 0px;
   height: 85%;
+
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
   height: 15%;
 }
 
 form {
+    position: relative;
     color: black;
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 20px;
+
+    .field {
+      padding: 30px;
+      font-size: 24px;
+      vertical-align: middle;
+    }
 }
 
 /*
