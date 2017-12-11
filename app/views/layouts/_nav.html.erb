@@ -1,17 +1,16 @@
 <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
   <div class="wrapper">
     <%= image_tag "logos/logo.jpg", alt: "Atish Logo", id: "logo", href: root_url %>
-    <nav>
-      <button class="burger-nav"> </button>
-      <ul id="nav_list" class="nav navbar-nav navbar-right">
-        <li>Who dis?</li>
-        <li>Projects</li>
-        <li>Resume</li>
-        <li><div id="main_contact"><button id="nav_contact"
-                                            class="all_button"
-                                            class="btn btn-default"
-                                            type="button"> Contact </button></div></li>
-        </ul>
-    </nav>
+    <div id="main_contact"><button id="nav_contact"
+                                        class="all_button"
+                                        class="btn btn-default"
+                                        type="button"> Contact </button></div>
   </div>
+</nav>
+
+<nav id="parallax-nav">
+  <a href="#about-container" class="parallax-item">My Story</li>
+  <a href="#projects-container" class="parallax-item">Projects</li>
+  <a href="#resume-container" class="parallax-item">Resume</li>
+  <a href="#form-container" class="parallax-item">Say Hi!</li>
 </nav>
