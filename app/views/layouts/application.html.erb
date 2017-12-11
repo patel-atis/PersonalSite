@@ -15,9 +15,11 @@
   </head>
 
   <body>
-    <%= render 'layouts/nav' %>
     <div id="homepage">
-    <%= yield %>
+      <%= yield %>
+    </div>
+    <div id="nav-container">
+      <%= render 'layouts/nav' %>
     </div>
   </body>
 </html>
