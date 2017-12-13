@@ -296,51 +296,10 @@ form {
 *  mobile
 *
 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
 
-.burger-nav {
-    display: block;
-    height: 40px;
-    width: 100%;
-    background: url(hamburger.png) no-repeat 98% center;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    float: right;
-    border: 1px solid green;
-}
-
-nav {
-    height: 100%;
-    border: 1px solid blue;
-    float: right;
-    background-color: #222;
-    width: 80%;
-}
-
-nav ul {
-    overflow: hidden;
-    //height: 0px;
-    border: 1px solid purple;
-}
-
-nav ul.open {
-    height: auto;
-}
-
-nav ul li {
-    float: none;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-}
-
-nav ul li a {
-    padding: 10px;
-    border-bottom: 1px solid black;
-    display: block;
+#parallax-nav {
+  display: none;
 }
 
 }
