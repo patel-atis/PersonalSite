@@ -271,11 +271,39 @@ form {
     padding: 10px 0 10px 15px;
     cursor: pointer;
     outline: 0;
+    -webkit-transition: color .7s 0s ease-in-out;
+    -moz-transition: color .7s 0s ease-in-out;
+    -o-transition: color .7s 0s ease-in-out;
+    transition: color .7s 0s ease-in-out;
   }
 
   a:hover {
     color: #53cab5;
     text-decoration: none;
+    background: none;
+  }
+
+  .label-container {
+    position: relative;
+    -webkit-transition: opacity .7s 0s ease-in-out;
+    -moz-transition: opacity .7s 0s ease-in-out;
+    -o-transition: opacity .7s 0s ease-in-out;
+    transition: opacity .7s 0s ease-in-out;
+  }
+
+  .label {
+    display: none;
+    position: absolute;
+  }
+
+  a:hover .label {
+    display: block;
+    margin-left: -100px;
+  }
+
+  .active a {
+    color: #53cab5;
+    background-color: transparent;
   }
 }
 
