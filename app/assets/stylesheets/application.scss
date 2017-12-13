@@ -30,6 +30,10 @@ body, html {
   letter-spacing: 3px;
 }
 
+#error_explanation {
+  color: white;
+}
+
 #home-container, #about-container, #resume-container, #projects-container, #form-container {
     position: relative;
     display: flex;
