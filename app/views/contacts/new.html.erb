@@ -1,5 +1,5 @@
 
-<div id="home-container">
+<div id="home-container" class="container">
   <div id="middle">
     <div id="center_peice">
         <h1 id="title"> DEVELOPER. </h1>
@@ -12,29 +12,44 @@
   </div>
 </div>
 
-<div id="about-container">
-  <h1>My Story</h1>
-  <div id="about-content">
+<div id="about-container" class="container">
+  <div id="about-header" class="header">
+    <h1>Profile</h1>
+  </div>
+  <div id="about-content" class="content">
   </div>
 </div>
 
-<div id="resume-container">
-  <h1>Resume</h1>
-  <div id="resume-content">
+<div id="experience-container" class="container">
+  <div id="experience-header" class="header">
+    <h1>Experience</h1>
+  </div>
+  <div id="experience-content" class="content">
   </div>
 </div>
 
-<div id="projects-container">
-  <h1>Projects</h1>
-  <div id="projects-content">
+<div id="skills-container" class="container">
+  <div id="skills-header" class="header">
+    <h1>Skills</h1>
+  </div>
+  <div id="skills-content" class="content">
   </div>
 </div>
 
-<div id="form-container">
-  <div id="form-content">
-  <%= render 'form', contact: @contact %>
+<div id="projects-container" class="container">
+  <div id="projects-header" class="header">
+    <h1>Projects</h1>
+  </div>
+  <div id="projects-content" class="content">
+  </div>
+</div>
+
+<div id="form-container" class="container">
+  <div id="form-content" class="content">
+    <h1> You know what to do <span class="glyphicon glyphicon-hand-down"> </span> </h1>
+    <%= render 'form', contact: @contact %>
   </div>
   <div id="footer">
-    <h6> i am footer </h6>
+    <%= render 'layouts/footer' %>
   </div>
 </div>
