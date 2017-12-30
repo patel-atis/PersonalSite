@@ -1,0 +1,60 @@
+/*
+*  form section styles
+*/
+
+
+#form-container {
+  height: 100%;
+  background-image: url("no-pencil.png");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+}
+
+#form-content {
+  position: absolute;
+  top: 0px;
+  height: 85%;
+  background-image: none;
+  background-color: black;
+  text-align: center;
+
+
+  form {
+      position: relative;
+      height: 100%;
+      color: black;
+      vertical-align: middle;
+
+      .field {
+
+        padding: 15px;
+        font-size: 18px;
+        vertical-align: middle;
+
+        .label {
+          display: block;
+          font-weight: 400;
+        }
+      }
+
+      .actions {
+        margin-top: 10px;
+      }
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 20%;
+}

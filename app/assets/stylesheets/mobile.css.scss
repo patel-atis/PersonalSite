@@ -1,0 +1,81 @@
+/*
+*
+*  mobile
+*
+*/
+
+@media only screen and (max-width: 425px) {
+
+  #about-container, #resume-container,
+  #projects-container, #form-container {
+    height: 130%;
+  }
+
+  #about-content, #resume-content, #projects-content {
+
+  }
+
+  #about-content, #resume-content,
+  #projects-content, #form-content {
+    height: 80%;
+  }
+
+  #about-header, #resume-header, #projects-header {
+    background-image: none;
+    background-color: black;
+    height: 20%;
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  #home-container {
+    background-image: url("craig-whitehead-260310.jpg");
+
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #homepage #about-content {
+    background-image: url("jason-briscoe-152946.jpg");
+
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #homepage #resume-content {
+    background-image: url("jason-briscoe-152946.jpg");
+
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #homepage #projects-content {
+    background-image: url("jason-briscoe-152946.jpg");
+
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  #main_buttons, #main_contact {
+    display: none;
+  }
+
+  #title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,236 @@
+/*
+* full page styles
+*/
+
+$body-bg: transparent;
+
+body, html {
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+
+#error_explanation {
+  color: white;
+}
+
+#home-container, #about-container,
+#experience-container, #projects-container,
+#form-container, #skills-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    height: 40%;
+    width: 100%;
+    z-index: 45;
+    box-shadow: 0px -5px 50px 5px black, 0px 5px 50px 5px black;
+    text-align: center;
+
+    h1 {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      font-size: 80px;
+      font-weight: bold;
+      color: #53cab5;
+      font-family: 'Nothing You Could Do', cursive;
+    }
+}
+
+.content {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    background: url("no-pencil.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.all_button {
+    box-shadow: 2px 2px 5px #53cab5;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #53cab5;
+    border-radius: 10px;
+    font-weight: normal;
+    width: 120px;
+    height: 50px;
+
+    &:hover {
+      box-shadow: 4px 4px 10px #53cab5;
+      margin-top: -2px;
+      margin-left: -2px;
+    }
+}
+
+
+/*
+*
+*  main section styles
+*/
+#homepage {
+    background-image: url("kelly-sikkema-450720.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+#center_peice {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
+
+#title {
+    font-family: 'Nothing You Could Do', cursive;
+    width: 100%;
+    font-weight:bold;
+    vertical-align: middle;
+    display: block;
+    font-size: 38px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#middle {
+  width: 100%;
+  text-align: center;
+}
+
+#main_buttons {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*
+*  about section styles
+*/
+
+#about-container {
+  background-image: url("ana-pavlyuk-420815.jpg");
+  background-attachment: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#about-content {
+
+}
+
+/*
+*  experience section styles
+*/
+#experience-container {
+    background-image: url("elijah-flores-99207.jpg");
+    background-attachment: fixed;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*
+*  skills section styles
+*/
+#skills-container {
+  background-image: url("mike-wilson-138129.jpg");
+  background-attachment: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/*
+*  projects section styles
+*/
+
+#projects-container {
+  background-image: url("nate-grant-346782.jpg");
+  background-attachment: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+}
+
+
+
+
+#main_contact {
+    margin-top: 4px;
+    float: right;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+}

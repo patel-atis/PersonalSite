@@ -1,0 +1,59 @@
+//for double clicking problem
+@media (pointer: fine) {
+  #parallax-nav {
+    a:hover .label {
+      display: block;
+      margin-left: -100px;
+    }
+
+    a:hover {
+      font-size: 16px;
+      color: #53cab5;
+      text-decoration: none;
+      background: none;
+    }  
+  }
+}
+
+
+#parallax-nav {
+  position: fixed;
+  z-index: 52;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translate3d(0,-50%,0);
+  -moz-transform: translate3d(0,-50%,0);
+  -ms-transform: translate3d(0,-50%,0);
+  -o-transform: translate3d(0,-50%,0);
+  transform: translate3d(0,-50%,0);
+
+  .parallax-item {
+  }
+
+  a {
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    cursor: pointer;
+    outline: 0;
+  }
+
+  .label-container {
+    position: relative;
+    -webkit-transition: opacity .7s 0s ease-in-out;
+    -moz-transition: opacity .7s 0s ease-in-out;
+    -o-transition: opacity .7s 0s ease-in-out;
+    transition: opacity .7s 0s ease-in-out;
+  }
+
+  .label {
+    display: none;
+    position: absolute;
+  }
+
+  .active a {
+    color: #53cab5;
+    background-color: transparent;
+  }
+}
