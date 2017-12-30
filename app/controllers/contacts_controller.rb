@@ -28,7 +28,7 @@ class ContactsController < ApplicationController
 
     respond_to do |format|
       if @contact.save
-        format.html { redirect_to root_url, flash[:notice] = 'I will get back to you ASAP!' }
+        format.html { redirect_to root_url, notice: 'Talk to you soon!' }
         format.json { render :new }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class ContactsController < ApplicationController
   def update
     respond_to do |format|
       if @contact.update(contact_params)
-        format.html { redirect_to @contact, notice: 'Contact was successfully updated' }
+        format.html { redirect_to @contact, notice: 'Contact was successfully updated.' }
         format.json { render :show, status: :ok, location: @contact }
       else
         format.html { render :edit }
