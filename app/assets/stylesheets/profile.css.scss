@@ -1,0 +1,37 @@
+/*
+*  about section styles
+*/
+
+#about-container {
+  background-image: url("ana-pavlyuk-420815.jpg");
+  background-attachment: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  height: 150%;
+}
+
+#about-content {
+  #prof-pic {
+    border: 1px solid blue;
+    border-radius: 100%;
+  }
+
+  #me-paragraph {
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+  }
+
+  #me-info {
+    height: 100%;
+    float: right;
+    border: 1px solid blue;
+  }
+}

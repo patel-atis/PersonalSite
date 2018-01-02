@@ -16,14 +16,23 @@ body, html {
   color: white;
 }
 
-#home-container, #about-container,
+#home-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#about-container,
 #experience-container, #projects-container,
 #form-container, #skills-container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 100%;
     color: white;
 }
@@ -31,7 +40,7 @@ body, html {
 .header {
     position: absolute;
     top: 0px;
-    height: 40%;
+    height: 30%;
     width: 100%;
     z-index: 45;
     box-shadow: 0px -5px 50px 5px black, 0px 5px 50px 5px black;
@@ -51,7 +60,7 @@ body, html {
 }
 
 .content {
-    height: 60%;
+    height: 70%;
     width: 100%;
     position: absolute;
     bottom: 0px;
@@ -140,78 +149,6 @@ body, html {
     margin-top: 30px;
     width: 100%;
 }
-
-/*
-*  about section styles
-*/
-
-#about-container {
-  background-image: url("ana-pavlyuk-420815.jpg");
-  background-attachment: fixed;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-#about-content {
-
-}
-
-/*
-*  experience section styles
-*/
-#experience-container {
-    background-image: url("elijah-flores-99207.jpg");
-    background-attachment: fixed;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-/*
-*  skills section styles
-*/
-#skills-container {
-  background-image: url("mike-wilson-138129.jpg");
-  background-attachment: fixed;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-/*
-*  projects section styles
-*/
-
-#projects-container {
-  background-image: url("nate-grant-346782.jpg");
-  background-attachment: fixed;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-
 
 //footer
 
