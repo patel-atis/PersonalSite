@@ -14,24 +14,80 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 
-  height: 150%;
+  height: 130%;
 }
 
 #about-content {
-  #prof-pic {
-    border: 1px solid blue;
-    border-radius: 100%;
-  }
+  .content-wrapper {
+    font-family: 'Montserrat', arial;
+    text-align: center;
+    vertical-align: middle;
 
-  #me-paragraph {
-    height: 100%;
-    float: left;
-    border: 1px solid black;
-  }
+    h2 {
+      padding-top: 20px;
+    }
 
-  #me-info {
-    height: 100%;
-    float: right;
-    border: 1px solid blue;
+    h3 {
+      text-decoration: underline;
+    }
+
+    #me-pic {
+      padding-left: 19px;
+      display: inline-block;
+      height: 100%;
+      width: 34%;
+      vertical-align: middle;
+      #prof-pic {
+        position: relative;
+        top: 35%;
+        transform: translateY(-40%);
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px 1px #000;
+        margin: 10px;
+      }
+    }
+
+    #me-paragraph {
+      display: inline-block;
+      height: 100%;
+      float: left;
+      width: 33%;
+      padding: 5px;
+      #me-text {
+        p {
+          position: relative;
+          top: 35%;
+          transform: translateY(-40%);
+        }
+        height: 420px;
+        position: relative;
+        top: 35%;
+        transform: translateY(-40%);
+      }
+    }
+
+    #me-info {
+      display: inline-block;
+      margin-top: 0px;
+      padding-right: 10px;
+      height: 100%;
+      float: right;
+      width: 33%;
+      #info-text {
+        height: 420px;
+        position: relative;
+        top: 35%;
+        transform: translateY(-40%);
+        ul {
+          position: relative;
+          top: 35%;
+          transform: translateY(-40%);
+        }
+
+        ul li {
+          list-style: none;
+        }
+      }
+    }
   }
 }
