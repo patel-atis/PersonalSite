@@ -3,5 +3,48 @@
 </div>
 <div id="skills-content" class="content">
   <div class="content-wrapper">
+    <div id="lang-list">
+      <h2> Languages </h2>
+      <!-- iterate through skills -->
+      <% i = 0%>
+      <% @languages.each do |language| %>
+      <!-- slit the list of 21 skills in half -->
+      <% i += 1 %>
+      <% if i <= 2 %>
+      <div id=#lang-list-left class="col-md-6">
+        <ul>
+          <li>
+            <!-- print the skill name -->
+            <span class="ability-title"><%= language.lang %></span>
+            <span class="ability-rating">
+              <% (1..5).each do |i| %>
+              <% if language.rating >= i %>
+              <div class="glyphicon glyphicon-star">
+              <% else %>
+              <div class="glyphicon glyphicon-star-empty">
+              <% end end%>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <% else %>
+      <div id=#lang-list-right class="col-md-6">
+        <ul>
+          <li>
+            <!-- print the skill name -->
+            <span class="ability-title"><%= language.lang %></span>
+            <span class="ability-rating">
+              <% (1..5).each do |i| %>
+              <% if language.rating >= i %>
+              <div class="glyphicon glyphicon-star">
+              <% else %>
+              <div class="glyphicon glyphicon-star-empty">
+              <% end end%>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <% end end %>
+    </div>
   </div>
 </div>

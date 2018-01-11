@@ -14,4 +14,21 @@
   -o-background-size: cover;
 
   height: 150%;
+    #lang-list {
+      h2 {
+        color: #53cab5;
+        padding: 20px;
+        border-bottom: 1px solid rgba(83, 202, 181, .2);
+      }
+
+      .col-md-6 {
+        text-align: center;
+        ul li {
+          padding: 10px;
+          position: relative;
+          list-style: none;
+        }
+      }
+    }
+  }
 }
