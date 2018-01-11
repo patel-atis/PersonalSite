@@ -7,20 +7,24 @@
 @media (aspect-ratio: 1/1)  {
 
   #about-container, #resume-container,
-  #projects-container, #form-container {
+  #interests-container, #form-container {
+    display: block;
     height: 130%;
+    overflow: hidden;
   }
 
-  #about-content, #resume-content, #projects-content {
+  #about-content, #resume-content, #interests-content {
 
   }
 
   #about-content, #resume-content,
-  #projects-content, #form-content {
+  #interests-content, #form-content {
     height: 80%;
+    display: block;
+    overflow: hidden;
   }
 
-  #about-header, #resume-header, #projects-header {
+  #about-header, #resume-header, #interests-header {
     background-image: none;
     background-color: black;
     height: 20%;
