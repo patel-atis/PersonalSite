@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-=begin
+
 skills = Skill.create([
   {item: 'Ruby on Rails', rating: 5},
   {item: 'Ruby', rating: 5},
@@ -30,13 +30,10 @@ skills = Skill.create([
   {item: 'Sublime Text', rating: 5},
   {item: 'MatPlotLib', rating: 2}
 ])
-=end
 
-=begin
 languages = Language.create([
   {lang: "English (Native Tongue)", rating: 5},
   {lang: "Spanish (Conversational)", rating: 3},
   {lang: "Gujurati (Passable)", rating: 2},
   {lang: "French (Juste un peu)", rating: 1}
   ])
-=end
