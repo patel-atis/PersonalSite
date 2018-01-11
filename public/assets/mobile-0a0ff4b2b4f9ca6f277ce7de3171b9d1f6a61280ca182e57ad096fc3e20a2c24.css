@@ -1,0 +1,86 @@
+/*
+*
+*  mobile
+*
+*/
+@media (aspect-ratio: 1 / 1) {
+  /* line 10, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #about-container, #resume-container,
+  #interests-container, #form-container {
+    display: block;
+    height: 130%;
+    overflow: hidden;
+  }
+
+  /* line 21, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #about-content, #resume-content,
+  #interests-content, #form-content {
+    height: 80%;
+    display: block;
+    overflow: hidden;
+  }
+
+  /* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #about-header, #resume-header, #interests-header {
+    background-image: none;
+    background-color: black;
+    height: 20%;
+  }
+  /* line 32, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #about-header h1, #resume-header h1, #interests-header h1 {
+    font-size: 40px;
+  }
+
+  /* line 37, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container {
+    background-image: url("craig-whitehead-260310.jpg");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 46, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-content {
+    background-image: url("jason-briscoe-152946.jpg");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 55, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #resume-content {
+    background-image: url("jason-briscoe-152946.jpg");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 64, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #interests-content {
+    background-image: url("jason-briscoe-152946.jpg");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 73, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  /* line 79, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #main_buttons, #main_contact {
+    display: none;
+  }
+
+  /* line 83, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #title {
+    font-size: 24px;
+  }
+}
