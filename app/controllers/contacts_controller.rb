@@ -15,6 +15,8 @@ class ContactsController < ApplicationController
   # GET /contacts/new
   def new
     @contact = Contact.new
+
+    @skills = Skill.all
     @languages = Language.all 
   end
 

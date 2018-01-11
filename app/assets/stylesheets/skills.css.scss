@@ -13,7 +13,59 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 
-  height: 150%;
+  height: 160%;
+}
+
+#skills-header {
+  height: 25%;
+}
+
+#skills-content {
+
+  .ability-title {
+    float: left;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+  }
+
+  .ability-rating {
+    float: right;
+    font-size: 20px;
+    letter-spacing: .1px;
+
+    .glyphicon-star {
+      color: white;
+    }
+
+    .glyphicon-star-empty {
+      color: #aaa;
+      opacity: .6;
+    }
+  }
+
+  height: 75%;
+  font-family: 'Montserrat', arial;
+  .content-wrapper {
+    padding-top: 10px;
+    #skill-list {
+      display: inline-block;
+      h2 {
+        color: #53cab5;
+        padding: 20px;
+        border-bottom: 1px solid rgba(83, 202, 181, .2);
+      }
+
+      .col-md-6 {
+        text-align: center;
+        ul li {
+          padding: 10px;
+          position: relative;
+          list-style: none;
+        }
+      }
+
+    }
+
     #lang-list {
       h2 {
         color: #53cab5;
