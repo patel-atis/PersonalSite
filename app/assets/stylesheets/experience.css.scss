@@ -13,10 +13,15 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 
-    height: 150%;
+    height: 173%;
+}
+
+#experience-header {
+  height: 20%;
 }
 
 #experience-content {
+  height: 80%;
   border: 1px solid blue;
 
   h2 {
