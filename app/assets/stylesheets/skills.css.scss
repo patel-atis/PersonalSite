@@ -21,30 +21,9 @@
 }
 
 #skills-content {
-
-  .ability-title {
-    float: left;
-    font-size: 12px;
-    letter-spacing: 2.5px;
-  }
-
-  .ability-rating {
-    float: right;
-    font-size: 20px;
-    letter-spacing: .1px;
-
-    .glyphicon-star {
-      color: white;
-    }
-
-    .glyphicon-star-empty {
-      color: #aaa;
-      opacity: .6;
-    }
-  }
-
   height: 75%;
   font-family: 'Montserrat', arial;
+
   .content-wrapper {
     padding-top: 10px;
     #skill-list {
@@ -80,6 +59,28 @@
           position: relative;
           list-style: none;
         }
+      }
+    }
+
+
+    .ability-title {
+      float: left;
+      font-size: 12px;
+      letter-spacing: 2.5px;
+    }
+
+    .ability-rating {
+      float: right;
+      font-size: 20px;
+      letter-spacing: .1px;
+
+      .glyphicon-star {
+        color: white;
+      }
+
+      .glyphicon-star-empty {
+        color: #aaa;
+        opacity: .6;
       }
     }
   }
