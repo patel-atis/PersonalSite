@@ -6,8 +6,15 @@
 
 @media (aspect-ratio: 1/1)  {
 
-  #about-container, #resume-container,
-  #interests-container, #form-container {
+  /*
+  *
+  *
+  * custom.css.scss
+  *
+  *
+  */
+  div#about-container, div#resume-container,
+  div#interests-container, div#form-container {
     display: block;
     height: 130%;
     overflow: hidden;
@@ -17,14 +24,14 @@
 
   }
 
-  #about-content, #resume-content,
-  #interests-content, #form-content {
+  div#about-content, div#resume-content,
+  div#interests-content, div#form-content {
     height: 80%;
     display: block;
     overflow: hidden;
   }
 
-  #about-header, #resume-header, #interests-header {
+  div#about-header, div#resume-header, div#interests-header {
     background-image: none;
     background-color: black;
     height: 20%;
@@ -33,14 +40,37 @@
     }
   }
 
-  #home-container {
+  div#home-container {
     background-image: url("craig-whitehead-260310.jpg");
 
     background-attachment:local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    div#middle {
+      div#center_peice {
+        h1#title {
+          font-size: 24px;
+          color: blue;
+        }
+      }
+      div#main_buttons {
+        display: none;
+      }
+    }
   }
+
+
+
+
+
+  /*
+  *
+  *
+  * profile.css.scss
+  * 
+  *
+  */
 
   #homepage #about-content {
     background-image: url("jason-briscoe-152946.jpg");
@@ -51,6 +81,14 @@
     background-size: cover;
   }
 
+  /*
+  *
+  *
+  * experience.css.scss
+  *
+  *
+  */
+
   #homepage #resume-content {
     background-image: url("jason-briscoe-152946.jpg");
 
@@ -59,6 +97,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /*
+  *
+  *
+  * interests.css.scss
+  *
+  *
+  */
 
   #homepage #interests-content {
     background-image: url("jason-briscoe-152946.jpg");
@@ -69,17 +115,45 @@
     background-size: cover;
   }
 
-  #nav {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
+  /*
+  *
+  *
+  * top-nav.css.scss
+  *
+  *
+  */
 
-  #main_buttons, #main_contact {
-    display: none;
-  }
+#nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 
-  #title {
-    font-size: 24px;
+  .wrapper {
+    a {
+      display: none;
+    }
   }
+}
+
+  /*
+  *
+  *
+  * parallax-nav.css.scss
+  *
+  *
+  */
+
+#parallax-nav {
+  display: none;
+}
+
+  /*
+  *
+  *
+  * form.css.scss
+  *
+  *
+  */
+
+
 }
