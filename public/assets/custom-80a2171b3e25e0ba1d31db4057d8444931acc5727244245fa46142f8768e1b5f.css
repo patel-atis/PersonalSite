@@ -129,12 +129,12 @@ body, html {
   text-align: center;
   vertical-align: middle;
   display: block;
-  width: 100%;
+  width: 50%;
+  border: 1px solid red;
 }
-
 /* line 138, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
-#title {
-  border: 1px solid blue;
+#center_peice #title {
+  border: 1px solid green;
   font-family: 'Handlee', cursive;
   width: 100%;
   font-weight: bold;
@@ -144,14 +144,19 @@ body, html {
   letter-spacing: 10px;
   color: white;
 }
+/* line 148, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#center_peice #title #name {
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-/* line 150, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 157, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle {
   width: 100%;
   text-align: center;
 }
 
-/* line 155, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 162, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #main_buttons {
   display: block;
   text-align: center;
@@ -160,13 +165,13 @@ body, html {
 }
 
 /*footer*/
-/* line 164, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 171, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer {
   position: absolute;
   bottom: 0;
   height: 15%;
 }
-/* line 169, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 176, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links {
   vertical-align: middle;
   position: relative;
@@ -174,7 +179,7 @@ body, html {
   margin-right: 25px;
   float: right;
 }
-/* line 177, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 184, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa {
   padding: 20px;
   font-size: 22px;
@@ -184,26 +189,26 @@ body, html {
   margin: 5px 2px;
   border-radius: 50%;
 }
-/* line 187, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 194, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa:hover {
   opacity: 0.7;
 }
-/* line 190, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 197, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-facebook {
   background: #3B5998;
   color: white;
 }
-/* line 194, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 201, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-/* line 198, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 205, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-/* line 202, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 209, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-instagram {
   background: #125688;
   color: white;
