@@ -13,7 +13,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 
-  height: 160%;
+  height: 190%;
 }
 
 #skills-header {
@@ -40,12 +40,38 @@
           padding: 10px;
           position: relative;
           list-style: none;
+
+          .ability-title {
+            float: left;
+            font-size: 12px;
+            letter-spacing: 2.5px;
+          }
+
+          .ability-rating {
+            float: right;
+            font-size: 20px;
+            letter-spacing: .1px;
+            width: 125px;
+
+            .glyphicon-star {
+              color: white;
+              width: 20px;
+              letter-spacing: .1px;
+            }
+
+            .glyphicon-star-empty {
+              width: 20px;
+              letter-spacing: .1px;
+              color: #aaa;
+              opacity: .6;
+            }
+          }
         }
       }
-
     }
 
     #lang-list {
+      display: inline-block;
       h2 {
         color: #53cab5;
         padding: 20px;
@@ -55,32 +81,47 @@
       .col-md-6 {
         text-align: center;
         ul li {
+          letter-spacing: .1;
           padding: 10px;
           position: relative;
           list-style: none;
+          display: inline;
+
+          .ability-title {
+            float: left;
+            font-size: 12px;
+            letter-spacing: 2.5px;
+          }
+
+          .ability-rating {
+            height: 28px;
+            float: right;
+            font-size: 20px;
+            letter-spacing: .1px;
+            width: 125px;
+
+            .glyphicon-star {
+              margin: 0;
+              padding: 0;
+              display: inline;
+              color: white;
+              width: 20px;
+              height: 20px;
+              letter-spacing: .1px;
+            }
+
+            .glyphicon-star-empty {
+              margin: 0;
+              padding: 0;
+              display: inline;
+              width: 20px;
+              height: 20px;
+              letter-spacing: .1px;
+              color: #aaa;
+              opacity: .6;
+            }
+          }
         }
-      }
-    }
-
-
-    .ability-title {
-      float: left;
-      font-size: 12px;
-      letter-spacing: 2.5px;
-    }
-
-    .ability-rating {
-      float: right;
-      font-size: 20px;
-      letter-spacing: .1px;
-
-      .glyphicon-star {
-        color: white;
-      }
-
-      .glyphicon-star-empty {
-        color: #aaa;
-        opacity: .6;
       }
     }
   }
