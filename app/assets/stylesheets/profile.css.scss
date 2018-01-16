@@ -35,6 +35,7 @@
     }
 
     #me-pic {
+      order: 2;
       padding-left: 10px;
       display: inline-block;
       height: 100%;
@@ -51,6 +52,7 @@
     }
 
     #me-paragraph {
+      order: 1;
       display: inline-block;
       height: 100%;
       float: left;
@@ -62,6 +64,7 @@
           top: 35%;
           transform: translateY(-40%);
         }
+        min-width: 200px;
         height: 420px;
         position: relative;
         top: 35%;
@@ -70,6 +73,8 @@
     }
 
     #me-info {
+      border: 1px solid blue;
+      order: 3;
       display: inline-block;
       margin-top: 0px;
       padding-right: 10px;
