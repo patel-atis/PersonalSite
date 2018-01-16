@@ -131,20 +131,27 @@ body, html {
     text-align: center;
     vertical-align: middle;
     display: block;
-    width: 100%;
+    width: 50%;
+    border: 1px solid red;
+
+    #title {
+        border: 1px solid green;
+        font-family: 'Handlee', cursive;
+        width: 100%;
+        font-weight:bold;
+        vertical-align: middle;
+        display: block;
+        font-size: 38px;
+        letter-spacing: 10px;
+        color: white;
+        #name {
+          font-family: 'Montserrat', sans-serif;
+          border-bottom: 1px solid rgba(255,255,255,.1);
+        }
+    }
 }
 
-#title {
-    border: 1px solid blue;
-    font-family: 'Handlee', cursive;
-    width: 100%;
-    font-weight:bold;
-    vertical-align: middle;
-    display: block;
-    font-size: 38px;
-    letter-spacing: 10px;
-    color: white;
-}
+
 
 #middle {
   width: 100%;
