@@ -13,8 +13,8 @@
   *
   *
   */
-  div#about-container, div#resume-container,
-  div#interests-container, div#form-container {
+  #about-container, #resume-container,
+  #interests-container, #form-container {
     display: block;
     height: 130%;
     overflow: hidden;
@@ -24,14 +24,14 @@
 
   }
 
-  div#about-content, div#resume-content,
-  div#interests-content, div#form-content {
+  #about-content, #resume-content,
+  #interests-content, #form-content {
     height: 80%;
     display: block;
     overflow: hidden;
   }
 
-  div#about-header, div#resume-header, div#interests-header {
+  #about-header, #resume-header, #interests-header {
     background-image: none;
     background-color: black;
     height: 20%;
@@ -40,21 +40,21 @@
     }
   }
 
-  div#home-container {
+  #home-container {
     background-image: url("craig-whitehead-260310.jpg");
 
     background-attachment:local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    div#middle {
-      div#center_peice {
-        h1#title {
+    #middle {
+      #center_peice {
+        #title {
           font-size: 24px;
           color: blue;
         }
       }
-      div#main_buttons {
+      #main_buttons {
         display: none;
       }
     }
@@ -123,17 +123,17 @@
   *
   */
 
-#nav {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  #nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 
-  .wrapper {
-    a {
-      display: none;
+    .wrapper {
+      a {
+        display: none;
+      }
     }
   }
-}
 
   /*
   *
@@ -143,9 +143,9 @@
   *
   */
 
-#parallax-nav {
-  display: none;
-}
+  #parallax-nav {
+    display: none;
+  }
 
   /*
   *
@@ -154,6 +154,5 @@
   *
   *
   */
-
 
 }
