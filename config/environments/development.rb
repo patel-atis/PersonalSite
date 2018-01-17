@@ -42,6 +42,9 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = false
 
+  #apparently i need this if i make debug false otherwise css dont work
+  config.assets.digest = false
+
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
