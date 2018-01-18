@@ -3,7 +3,7 @@
 *  mobile
 *
 */
-@media (max-width: 400px) and (min-width: 1px) {
+@media screen and (max-width: 500px) and (min-width: 1px) {
   /*
   *
   *
@@ -50,8 +50,9 @@
   #home-container #middle #center_peice #title {
     font-size: 24px;
     color: blue;
+    border: 1px solid blue;
   }
-  /* line 58, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 59, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #home-container #middle #main_buttons {
     display: none;
   }
@@ -63,7 +64,7 @@
   *
   *
   */
-  /* line 76, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 77, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #homepage #about-content {
     background-image: url("jason-briscoe-152946.jpg");
     background-attachment: local;
@@ -79,7 +80,7 @@
   *
   *
   */
-  /* line 93, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 94, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #homepage #resume-content {
     background-image: url("jason-briscoe-152946.jpg");
     background-attachment: local;
@@ -95,7 +96,7 @@
   *
   *
   */
-  /* line 110, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 111, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #homepage #interests-content {
     background-image: url("jason-briscoe-152946.jpg");
     background-attachment: local;
@@ -111,13 +112,17 @@
   *
   *
   */
-  /* line 127, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 128, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #nav {
     position: absolute;
     top: 0px;
     left: 0px;
   }
   /* line 133, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #nav .wrapper {
+    display: none;
+  }
+  /* line 135, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #nav .wrapper a {
     display: none;
   }
@@ -129,8 +134,13 @@
   *
   *
   */
-  /* line 147, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  /* line 149, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
   #parallax-nav {
+    border: 1px solid blue;
+    display: none;
+  }
+  /* line 152, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #parallax-nav ul.nav {
     display: none;
   }
 

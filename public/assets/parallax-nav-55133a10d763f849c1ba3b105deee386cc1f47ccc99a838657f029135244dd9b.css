@@ -1,21 +1,18 @@
-/*for double clicking problem on mobile
 @media (pointer: fine) {
-  #parallax-nav {
-    a:hover .label {
-      display: block;
-      margin-left: -100px;
-    }
-
-    a:hover {
-      font-size: 14px;
-      color: #53cab5;
-      text-decoration: none;
-      background: none;
-    }
+  /* line 4, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+  #parallax-nav a:hover .label {
+    display: block;
+    margin-left: -100px;
+  }
+  /* line 9, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+  #parallax-nav a:hover {
+    font-size: 14px;
+    color: #53cab5;
+    text-decoration: none;
+    background: none;
   }
 }
-*/
-/* line 20, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+/* line 18, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
 #parallax-nav {
   position: fixed;
   z-index: 52;
@@ -27,7 +24,7 @@
   -o-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
-/* line 34, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+/* line 32, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
 #parallax-nav a {
   display: block;
   color: white;
@@ -36,7 +33,7 @@
   cursor: pointer;
   outline: 0;
 }
-/* line 43, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+/* line 41, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
 #parallax-nav .label-container {
   position: relative;
   -webkit-transition: opacity .7s 0s ease-in-out;
@@ -44,12 +41,12 @@
   -o-transition: opacity .7s 0s ease-in-out;
   transition: opacity .7s 0s ease-in-out;
 }
-/* line 51, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+/* line 49, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
 #parallax-nav .label {
   display: none;
   position: absolute;
 }
-/* line 56, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
+/* line 54, /Users/admin/PersonalSite/app/assets/stylesheets/parallax-nav.css.scss */
 #parallax-nav .active a {
   color: #53cab5;
   background-color: transparent;

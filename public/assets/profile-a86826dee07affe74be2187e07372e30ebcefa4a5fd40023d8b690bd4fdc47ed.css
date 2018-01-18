@@ -73,7 +73,6 @@
 }
 /* line 76, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info {
-  border: 1px solid blue;
   order: 3;
   display: inline-block;
   margin-top: 0px;
@@ -82,20 +81,20 @@
   float: right;
   width: 33%;
 }
-/* line 85, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 84, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text {
   height: 420px;
   position: relative;
   top: 35%;
   transform: translateY(-40%);
 }
-/* line 90, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 89, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text ul {
   position: relative;
   top: 35%;
   transform: translateY(-40%);
 }
-/* line 96, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 95, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text ul li {
   list-style: none;
 }

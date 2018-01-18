@@ -15,21 +15,16 @@
   margin-bottom: -300px;
 }
 
-/* line 24, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
-#interests-header h1 {
-  display: block;
-}
-/* line 27, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
-#interests-header h4 {
-  display: block;
-}
-/* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
-#interests-header h4 blockquote {
-  font-style: italic;
-  text-decoration: none;
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-header {
+  height: 25%;
 }
 
-/* line 37, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+/* line 27, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-content {
+  height: 75%;
+}
+/* line 29, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
 #interests-content .eyeball {
   border-radius: 100%;
   height: 30px;
@@ -37,7 +32,7 @@
   background-color: black;
   margin: 220px 0 0 140px;
 }
-/* line 45, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+/* line 37, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
 #interests-content #interest-1 {
   border-radius: 100%;
   margin: 55px 0 0 70px;
@@ -47,7 +42,7 @@
   float: left;
   box-shadow: 0px 0px 25px 1px #000;
 }
-/* line 55, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+/* line 47, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
 #interests-content #interest-2 {
   border-radius: 100%;
   margin: 55px 70px 0 0;

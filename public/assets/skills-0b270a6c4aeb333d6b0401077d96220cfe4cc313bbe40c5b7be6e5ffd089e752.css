@@ -11,17 +11,17 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 190%;
+  height: 165%;
 }
 
 /* line 20, /Users/admin/PersonalSite/app/assets/stylesheets/skills.css.scss */
 #skills-header {
-  height: 25%;
+  height: 23%;
 }
 
 /* line 24, /Users/admin/PersonalSite/app/assets/stylesheets/skills.css.scss */
 #skills-content {
-  height: 75%;
+  height: 77%;
   font-family: 'Montserrat', arial;
 }
 /* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/skills.css.scss */
