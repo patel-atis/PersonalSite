@@ -4,7 +4,7 @@
 *
 */
 
-@media (max-width: 400px) and (min-width: 1px) {
+@media screen and (max-width: 500px) and (min-width: 1px) {
 
   /*
   *
@@ -52,6 +52,7 @@
         #title {
           font-size: 24px;
           color: blue;
+          border: 1px solid blue;
         }
       }
       #main_buttons {
@@ -129,6 +130,7 @@
     left: 0px;
 
     .wrapper {
+      display: none;
       a {
         display: none;
       }
@@ -144,7 +146,11 @@
   */
 
   #parallax-nav {
+    border: 1px solid blue;
     display: none;
+    ul.nav {
+      display: none;
+    }
   }
 
   /*
