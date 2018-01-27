@@ -1,0 +1,25 @@
+= form_with(model: contact, local: true, action: '#form-container') do |form|
+  - if contact.errors.any?
+    #error_explanation
+      %h2
+        Yikes! Looks like you have #{pluralize(contact.errors.count, "error")} :
+      %ul
+        - contact.errors.full_messages.each do |message|
+          %li= message
+  .field
+    = form.label :Name, :class => "label"
+    \:
+    \#{form.text_field :name}
+  .field
+    = form.label :Email, :class => "label"
+    \:
+    \#{form.text_field :email}
+  .field
+    = form.label :Phone, :class => "label"
+    \:
+    \#{form.text_field :phone}
+  .field
+    = form.label :Notes, :class => "label"
+    = form.text_area :notes
+  .actions
+    = form.submit :class => "all_button", :value => "Connect!"

@@ -1,0 +1,29 @@
+#home-container.container
+  #middle
+    #center_peice
+      %h1#title
+        %span#name ATISH PATEL
+        %hr/
+        DEVELOPER
+    /
+      Hide buttons
+      <div id="main_buttons">
+      <button class="all_button" type="button" class="btn btn-default"> Resume </button>
+      <button class="all_button" type="button" class="btn btn-default"> Contact </button>
+      </div>
+#about-container.container
+  = render 'contacts/profile'
+#experience-container.container
+  = render 'contacts/experience'
+#skills-container.container
+  = render 'contacts/skills'
+#interests-container.container
+  = render 'contacts/interests'
+#form-container.container
+  #form-content.content
+    %h1
+      You know what to do
+      %span.glyphicon.glyphicon-hand-down
+    = render 'form', contact: @contact
+  #footer
+    = render 'layouts/footer'

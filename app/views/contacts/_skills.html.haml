@@ -1,0 +1,72 @@
+#skills-header.header
+  .header-title
+    %h1 Skills
+  .header-quote
+    %h4
+      %blockquote "A winner is someone who recognizes his God-given talents, works his tail off to develop them into skills, and uses these skills to accomplish his goals."
+      \- Larry Bird
+#skills-content.content
+  .content-wrapper
+    #skill-list
+      %h2 Tools and Tricks
+      / iterate through skills
+      - i = 0
+      - @skills.each do |skill|
+        / slit the list of 21 skills in half
+        - i += 1
+        - if i = 11
+          .col-md-6#skill-list-left
+            %ul
+              %li
+                / print the skill name
+                %span.ability-title= skill.item
+                %span.ability-rating
+                  - (1..5).each do |i|
+                    - if skill.rating >= i
+                      .glyphicon.glyphicon-star
+                    - else
+                      .glyphicon.glyphicon-star-empty
+        - else
+          .col-md-6#skill-list-right
+            %ul
+              %li
+                / print the skill name
+                %span.ability-title= skill.item
+                %span.ability-rating
+                  - (1..5).each do |i|
+                    - if skill.rating >= i
+                      .glyphicon.glyphicon-star
+                    - else
+                      .glyphicon.glyphicon-star-empty
+    #lang-list
+      %h2 Languages
+      / iterate through skills
+      - i = 0
+      - @languages.each do |language|
+        / slit the list of 21 skills in half
+        - i += 1
+        - if i = 2
+          .col-md-6#lang-list-left
+            %ul
+              %li
+                / print the skill name
+                %span.ability-title= language.lang
+                %span.ability-rating
+                  - (1..5).each do |i|
+                    - if language.rating >= i
+                      .glyphicon.glyphicon-star
+                    - else
+                      .glyphicon.glyphicon-star-empty
+        - else
+          .col-md-6#lang-list-right
+            %ul
+              %li
+                / print the skill name
+                %span.ability-title= language.lang
+                %span.ability-rating
+                  - (1..5).each do |i|
+                    - if language.rating >= i
+                      .glyphicon.glyphicon-star
+                    - else
+                      .glyphicon.glyphicon-star-empty
+    #skill-key this is the key
