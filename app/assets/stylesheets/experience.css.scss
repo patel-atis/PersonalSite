@@ -23,16 +23,17 @@
 }
 
 #experience-header {
-  height: 23%;
+  height: 20%;
 }
 
 #experience-content {
-  min-height: 120vh;
-  height: 77%;
+  height: 80%;
   font-family: 'Montserrat', arial;
   font-weight: 100;
 
   .content-wrapper {
+    display:block;
+    overflow:auto;
     margin: 0 200px 0 200px;
   }
 
