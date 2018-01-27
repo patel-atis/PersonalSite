@@ -1,0 +1,137 @@
+/*
+*  skills section styles
+*/
+/* line 5, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-container {
+  background-image: url("mike-wilson-138129.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 165%;
+}
+
+/* line 20, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-header {
+  height: 23%;
+}
+
+/* line 24, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content {
+  height: 77%;
+  font-family: 'Montserrat', arial;
+}
+/* line 28, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper {
+  padding-top: 10px;
+}
+/* line 30, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list {
+  display: inline-block;
+}
+/* line 32, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list h2 {
+  color: #53cab5;
+  padding: 20px;
+  border-bottom: 1px solid rgba(83, 202, 181, 0.2);
+}
+/* line 38, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 {
+  text-align: center;
+  border: 1px solid orange;
+}
+/* line 41, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 ul li {
+  border: 1px solid blue;
+  padding: 10px;
+  position: relative;
+  list-style: none;
+}
+/* line 47, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 ul li .ability-title {
+  border: 1px solid red;
+  float: left;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+}
+/* line 54, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 ul li .ability-rating {
+  border: 1px solid green;
+  float: right;
+  font-size: 20px;
+  letter-spacing: .1px;
+  width: 125px;
+}
+/* line 61, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 ul li .ability-rating .glyphicon-star {
+  color: white;
+  width: 20px;
+  letter-spacing: .1px;
+}
+/* line 67, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #skill-list .col-md-6 ul li .ability-rating .glyphicon-star-empty {
+  width: 20px;
+  letter-spacing: .1px;
+  color: #aaa;
+  opacity: .6;
+}
+/* line 78, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list {
+  display: inline-block;
+}
+/* line 80, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list h2 {
+  color: #53cab5;
+  padding: 20px;
+  border-bottom: 1px solid rgba(83, 202, 181, 0.2);
+}
+/* line 86, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 {
+  text-align: center;
+}
+/* line 88, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 ul li {
+  letter-spacing: .1;
+  padding: 10px;
+  position: relative;
+  list-style: none;
+  display: inline;
+}
+/* line 95, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 ul li .ability-title {
+  float: left;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+}
+/* line 101, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 ul li .ability-rating {
+  height: 28px;
+  float: right;
+  font-size: 20px;
+  letter-spacing: .1px;
+  width: 125px;
+}
+/* line 108, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 ul li .ability-rating .glyphicon-star {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color: white;
+  width: 20px;
+  height: 20px;
+  letter-spacing: .1px;
+}
+/* line 118, /Users/admin/personalsite/app/assets/stylesheets/skills.css.scss */
+#skills-content .content-wrapper #lang-list .col-md-6 ul li .ability-rating .glyphicon-star-empty {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 20px;
+  height: 20px;
+  letter-spacing: .1px;
+  color: #aaa;
+  opacity: .6;
+}
