@@ -2,6 +2,7 @@
 *  about section styles
 */
 
+
 #about-container {
   background-image: url("ana-pavlyuk-420815.jpg");
   background-attachment: fixed;
@@ -36,18 +37,18 @@
 
     #me-pic {
       order: 2;
-      padding-left: 7px;
       display: inline-block;
       height: 100%;
       width: 34%;
       vertical-align: middle;
+      padding: 6px;
       #prof-pic {
+        width: 100%;
         position: relative;
         top: 35%;
-        transform: translateY(-40%);
+        transform: translateY(-30%);
         border-radius: 10px;
         box-shadow: 0px 0px 25px 1px #000;
-        margin: 10px;
       }
     }
 
@@ -57,12 +58,13 @@
       height: 100%;
       float: left;
       width: 33%;
-      padding: 5px;
+      padding: 10px;
       #me-text {
         p {
           position: relative;
           top: 35%;
           transform: translateY(-40%);
+          border: 1px solid green;
         }
         min-width: 200px;
         height: 420px;
@@ -76,7 +78,7 @@
       order: 3;
       display: inline-block;
       margin-top: 0px;
-      padding-right: 10px;
+      padding: 10px;
       height: 100%;
       float: right;
       width: 33%;
