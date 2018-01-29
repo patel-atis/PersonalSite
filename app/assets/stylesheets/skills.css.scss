@@ -12,20 +12,15 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-  height: 165%;
+  height: 160%;
 }
 
 #skills-header {
-  height: 23%;
 }
 
 #skills-content {
-  height: 77%;
   font-family: 'Montserrat', arial;
   .content-wrapper {
-    display:block;
-    overflow:auto;
     padding-top: 10px;
     #skill-list {
       display: inline-block;

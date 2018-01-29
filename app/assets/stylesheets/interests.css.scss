@@ -16,23 +16,24 @@
 
   height: 180%;
 
-  margin-bottom: -300px;
 }
 
 #interests-header {
-  height: 25%;
+
 }
 
 #interests-content {
-  height: 75%;
-  border: 1px solid blue;
   .content-wrapper {
-    border: 1px solid red;
-    display:block;
-    overflow:auto;
-    .interest {
-      height: 160px;
-      border: 1px solid purple;
+    width: 100%;
+    table {
+      width: 100%;
+      height: 100%;
+      tr {
+        td {
+          border: 1px solid green;
+        }
+      }
     }
+
   }
 }
