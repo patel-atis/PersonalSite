@@ -7,16 +7,14 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 skills = Skill.create([
-  {item: 'Ruby on Rails', rating: 5},
-  {item: 'Ruby', rating: 5},
-  {item: 'Java', rating: 4},
+  {item: 'Ruby on Rails', rating: 4},
+  {item: 'Ruby', rating: 4},
+  {item: 'Java', rating: 3},
   {item: 'Javascript', rating: 4},
   {item: 'HTML(5)', rating: 5},
   {item: 'CSS(3)', rating: 5},
-  {item: 'Python', rating: 4},
+  {item: 'Python', rating: 3},
   {item: 'CLI', rating: 4},
-  {item: 'JSON', rating: 5},
-  {item: 'JQuery', rating: 5},
   {item: 'MySQL', rating: 4},
   {item: 'PostgreSQL', rating: 4},
   {item: 'Bootstrap', rating: 4},
@@ -24,8 +22,8 @@ skills = Skill.create([
   {item: 'OOP', rating: 4},
   {item: 'MS Office', rating: 5},
   {item: 'Atom', rating: 5},
-  {item: 'Windows', rating: 4},
-  {item: 'Mac OS', rating: 4},
+  {item: 'Windows', rating: 5},
+  {item: 'Mac OS', rating: 5},
   {item: 'NumPy', rating: 2},
   {item: 'Sublime Text', rating: 5},
   {item: 'MatPlotLib', rating: 2}
