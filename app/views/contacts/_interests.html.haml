@@ -7,15 +7,16 @@
       \- George Matthew Adams
 #interests-content.content
   .content-wrapper
-    .interest#sports
-      #sport-pic= image_tag 'interest-sports.jpg', id: 'sport-image', height: 150 
-      #sport-text i like sports
-    .interest#music
-      #music-pic
-      #music-text music is listened to by me
-    .interest#learning
-      #learning-pic
-      #learning-text edumacation is dope
-    .interest#travel
-      #travel-pic
-      #travel-text gotta diversify ya world view
+    %table
+      %tr.interest#sports
+        %td#sport-pic= image_tag 'interest-sports.jpg', id: 'sport-image', height: 150
+        %td#sport-text{:colspan => 4} i like sports
+      %tr.interest#music
+        %td#music-text{:colspan => 4} music is listened to by me
+        %td#music-pic= image_tag 'interest-music.jpg', id: 'music-image', height: 150
+      %tr.interest#learning
+        %td#learning-pic= image_tag 'interest-learning.png', id: 'learning-image', height: 150
+        %td#learning-text{:colspan => 4} edumacation is dope
+      %tr.interest#travel
+        %td#travel-text{:colspan => 4} gotta diversify ya world view
+        %td#travel-pic= image_tag 'interest-travel.jpg', id: 'travel-image', height: 150
