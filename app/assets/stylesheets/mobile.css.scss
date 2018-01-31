@@ -4,7 +4,7 @@
 *
 */
 
-@media screen and (max-width: 500px) and (min-width: 1px) {
+@media screen and (max-width: 991px) and (min-width: 1px) {
 
   /*
   *
@@ -13,50 +13,48 @@
   *
   *
   */
-  #about-container, #resume-container,
-  #interests-container, #form-container {
+  .container {
+    background-attachment: scroll;
     display: block;
-    height: 130%;
-    overflow: hidden;
   }
 
-  #about-content, #resume-content, #interests-content {
-
-  }
-
-  #about-content, #resume-content,
-  #interests-content, #form-content {
-    height: 80%;
+  .content {
+    text-align: center;
     display: block;
     overflow: hidden;
+
+    ul li {
+      list-style: none;
+    }
   }
 
-  #about-header, #resume-header, #interests-header {
+  .header {
     background-image: none;
-    background-color: black;
-    height: 20%;
+    text-align: center;
+    border-bottom: 1px solid rgba(10, 10, 10, .2);
     h1 {
       font-size: 40px;
+      color: #53cab5;
     }
   }
 
   #home-container {
-    background-image: url("craig-whitehead-260310.jpg");
-
-    background-attachment:local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("nick-nice-328476.jpg");
+    background-attachment: scroll;
+    height: 100vh;
     #middle {
       #center_peice {
+        margin-top: 40vh;
+        text-align: center;
         #title {
-          font-size: 24px;
-          color: blue;
-          border: 1px solid blue;
+          font-size: 28px;
+          hr {
+            border: 1px solid rgba(83, 202, 181, .4);
+          }
+          #name {
+            color: #53cab5;
+          }
         }
-      }
-      #main_buttons {
-        display: none;
       }
     }
   }
@@ -73,13 +71,39 @@
   *
   */
 
-  #homepage #about-content {
-    background-image: url("jason-briscoe-152946.jpg");
+  #homepage #about-container {
+    #about-header {
+      h2 {
+        font-size: 18px;
+      }
+    }
+    #about-content{
+      .content-wrapper{
+        h3{
+          color: #53cab5;
+        }
+        #me-paragraph{
 
-    background-attachment:local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        }
+        #me-pic{
+          #prof-pic {
+            border-radius: 100%;
+            border: 15px solid rgba(0,0,0,.3);
+            margin: 5px;
+          }
+        }
+        #me-info{
+          #info-text{
+            h6 {
+              font-weight: bold;
+            }
+            ul {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
   }
 
   /*
@@ -90,13 +114,106 @@
   *
   */
 
-  #homepage #resume-content {
-    background-image: url("jason-briscoe-152946.jpg");
+  #homepage #experience-container {
+    background-color: #f4efe0;
+    #experience-header {
 
-    background-attachment:local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    }
+    #experience-content{
+      .content-wrapper{
+        h2 {
+          color: #53cab5;
+        }
+        table, thead, tbody, th, td, tr {
+      		display: block;
+      	}
+        table {
+          text-align: left;
+          .row-title{
+            line-height: 14px;
+            .name {
+              font-size: 20px;
+              font-weight: 400;
+              hr {
+
+              }
+            }
+            .date {
+
+            }
+          }
+          .row-content {
+            .info-title{
+              .intro {
+                display: none;
+              }
+            }
+            ul li {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+  *
+  *
+  * skills.css.scss
+  *
+  *
+  */
+  #homepage #skills-container {
+    #skills-header {
+
+    }
+    #skills-content{
+      .content-wrapper{
+        h2 {
+          color: #53cab5;
+          padding: 5px;
+        }
+        ul li {
+          height: 10px;
+          .ability-title {
+            position: absolute;
+            left: 0px;
+          }
+          .ability-rating {
+            position: absolute;
+            right: 0px;
+            .glyphicon-star {
+              color: #43baa5;
+            }
+            .glyphicon-star-empty{
+              color: gray;
+            }
+          }
+        }
+
+        #skill-key{
+          margin-top: 10px;
+          width: 100%;
+          display: inline-block;
+
+          h2 {
+            margin: 0;
+            font-size: 15px;
+          }
+          #keys {
+            #one-star {
+              margin-top: -14px;
+            }
+            .key {
+              font-size: 10px;
+              width: 20%;
+              float: left;
+            }
+          }
+        }
+      }
+    }
   }
 
   /*
@@ -107,13 +224,14 @@
   *
   */
 
-  #homepage #interests-content {
-    background-image: url("jason-briscoe-152946.jpg");
+  #homepage #interests-container {
+    background-color: #f4efe0;
+    #interest-header {
 
-    background-attachment:local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    }
+    #interests-content{
+
+    }
   }
 
   /*
@@ -125,6 +243,9 @@
   */
 
   #nav {
+    display: static;
+    border: 1px solid blue;
+    background-color: white;
     position: absolute;
     top: 0px;
     left: 0px;
