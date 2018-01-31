@@ -16,7 +16,6 @@ Rails.application.config.assets.precompile += %w(
   experience.css.scss
   profile.css.scss
   skills.css.scss
-  interests.css.scss
   custom.css.scss
   form.css.scss
   parallax-nav.css.scss
