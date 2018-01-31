@@ -1,63 +1,57 @@
 /*
 *  about section styles
 */
-/* line 6, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 7, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-container {
-  background-image: url("ana-pavlyuk-420815.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("nate-grant-346782.jpg");
   height: 130%;
 }
 
-/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 14, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper {
   font-family: 'Montserrat', arial;
   text-align: center;
   vertical-align: middle;
 }
-/* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 19, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper h2 {
   padding-top: 20px;
 }
-/* line 32, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper h3 {
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(83, 202, 181, 0.2);
   color: #53cab5;
 }
-/* line 38, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 29, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-pic {
   order: 2;
-  padding-left: 7px;
   display: inline-block;
   height: 100%;
   width: 34%;
   vertical-align: middle;
+  padding: 6px;
 }
-/* line 45, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 36, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-pic #prof-pic {
+  width: 100%;
   position: relative;
   top: 35%;
-  transform: translateY(-40%);
-  border-radius: 10px;
+  transform: translateY(-30%);
+  border-radius: 100%;
+  border: 15px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 25px 1px #000;
-  margin: 10px;
 }
-/* line 55, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 47, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-paragraph {
   order: 1;
   display: inline-block;
   height: 100%;
   float: left;
   width: 33%;
-  padding: 5px;
+  padding: 10px;
 }
-/* line 62, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 54, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-paragraph #me-text {
   min-width: 200px;
   height: 420px;
@@ -65,36 +59,37 @@
   top: 35%;
   transform: translateY(-40%);
 }
-/* line 63, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 55, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-paragraph #me-text p {
   position: relative;
   top: 35%;
   transform: translateY(-40%);
+  border: 1px solid green;
 }
-/* line 76, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 69, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info {
   order: 3;
   display: inline-block;
   margin-top: 0px;
-  padding-right: 10px;
+  padding: 10px;
   height: 100%;
   float: right;
   width: 33%;
 }
-/* line 84, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 77, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text {
   height: 420px;
   position: relative;
   top: 35%;
   transform: translateY(-40%);
 }
-/* line 89, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 82, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text ul {
   position: relative;
   top: 35%;
   transform: translateY(-40%);
 }
-/* line 95, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
+/* line 88, /Users/admin/PersonalSite/app/assets/stylesheets/profile.css.scss */
 #about-content .content-wrapper #me-info #info-text ul li {
   list-style: none;
 }

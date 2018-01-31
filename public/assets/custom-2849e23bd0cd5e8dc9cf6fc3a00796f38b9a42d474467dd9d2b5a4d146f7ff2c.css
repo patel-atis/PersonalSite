@@ -16,7 +16,7 @@ body, html {
 }
 
 /* line 20, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
-#home-container {
+.container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -24,9 +24,16 @@ body, html {
   height: 100%;
   width: 100%;
   color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
-/* line 30, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 39, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #about-container,
 #experience-container, #interests-container,
 #form-container, #skills-container {
@@ -38,18 +45,19 @@ body, html {
   color: white;
 }
 
-/* line 41, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 50, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header {
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 30%;
+  height: 300px;
   width: 100%;
   z-index: 45;
   box-shadow: 0px -5px 50px 5px black, 0px 5px 50px 5px black;
   text-align: center;
 }
-/* line 51, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 61, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header h1 {
   display: block;
   position: relative;
@@ -62,12 +70,12 @@ body, html {
   color: #53cab5;
   font-family: 'Handlee', cursive;
 }
-/* line 64, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 74, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header .header-title {
   height: 40%;
   text-align: center;
 }
-/* line 67, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 77, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header .header-title h1 {
   position: relative;
   width: 70%;
@@ -80,11 +88,11 @@ body, html {
   -webkit-transform: none;
   -ms-transform: none;
 }
-/* line 80, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 90, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header .header-quote {
   height: 60%;
 }
-/* line 82, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 92, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header .header-quote h4 {
   font-family: 'Handlee', cursive;
   border-top: 1px solid rgba(83, 202, 181, 0.2);
@@ -95,7 +103,7 @@ body, html {
   margin: auto;
   width: 70%;
 }
-/* line 91, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 101, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .header .header-quote h4 blockquote {
   font-weight: 100;
   font-size: 29px;
@@ -104,11 +112,13 @@ body, html {
   text-decoration: none;
 }
 
-/* line 102, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 112, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .content {
-  height: 70%;
+  display: flex;
   width: 100%;
   position: absolute;
+  margin-top: 300px;
+  top: 0px;
   bottom: 0px;
   left: 0px;
   background: url("no-pencil.png");
@@ -119,7 +129,7 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-/* line 119, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 131, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .content .content-wrapper {
   margin-top: 5px;
   margin-right: 15vw;
@@ -127,7 +137,7 @@ body, html {
   height: 100%;
 }
 
-/* line 127, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 139, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .all_button {
   box-shadow: 2px 2px 5px #53cab5;
   background-color: Transparent;
@@ -143,7 +153,7 @@ body, html {
   width: 120px;
   height: 50px;
 }
-/* line 142, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 154, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 .all_button:hover {
   box-shadow: 4px 4px 10px #53cab5;
   margin-top: -2px;
@@ -154,7 +164,7 @@ body, html {
 *
 *  main section styles
 */
-/* line 154, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 166, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #homepage {
   background-image: url("kelly-sikkema-450720.jpg");
   height: 100%;
@@ -167,12 +177,12 @@ body, html {
   -o-background-size: cover;
 }
 
-/* line 169, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 181, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle {
   width: 100%;
   text-align: center;
 }
-/* line 172, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 184, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle #center_peice {
   margin: 0 auto;
   width: 500px;
@@ -180,7 +190,7 @@ body, html {
   vertical-align: middle;
   display: block;
 }
-/* line 178, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 190, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle #center_peice #title {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
@@ -191,18 +201,18 @@ body, html {
   letter-spacing: 10px;
   color: white;
 }
-/* line 187, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 199, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle #center_peice #title hr {
   opacity: 0.2;
   border-color: #53cab5;
 }
-/* line 191, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 203, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #middle #center_peice #title #name {
   font-family: 'Montserrat', sans-serif;
   color: #53cab5;
 }
 
-/* line 199, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 211, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #main_buttons {
   display: block;
   text-align: center;
@@ -211,21 +221,23 @@ body, html {
 }
 
 /*footer*/
-/* line 208, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 220, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer {
-  position: absolute;
-  bottom: 0;
-  height: 15%;
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
 }
-/* line 213, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 227, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links {
   vertical-align: middle;
   position: relative;
-  margin-top: 12px;
-  margin-right: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
   float: right;
 }
-/* line 221, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 235, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa {
   padding: 20px;
   font-size: 22px;
@@ -235,26 +247,26 @@ body, html {
   margin: 5px 2px;
   border-radius: 50%;
 }
-/* line 231, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 245, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa:hover {
   opacity: 0.7;
 }
-/* line 234, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 248, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-facebook {
   background: #3B5998;
   color: white;
 }
-/* line 238, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 252, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-/* line 242, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 256, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-/* line 246, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+/* line 260, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
 #footer #footer-links .fa-instagram {
   background: #125688;
   color: white;

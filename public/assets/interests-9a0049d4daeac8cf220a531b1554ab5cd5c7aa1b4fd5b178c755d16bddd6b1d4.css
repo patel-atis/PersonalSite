@@ -1,0 +1,22 @@
+/*
+*  interests section styles
+*/
+/* line 6, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-container {
+  background-image: url("ana-pavlyuk-420815.jpg");
+  height: 180%;
+}
+
+/* line 17, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-content .content-wrapper {
+  width: 100%;
+}
+/* line 19, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-content .content-wrapper table {
+  width: 100%;
+  height: 100%;
+}
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/interests.css.scss */
+#interests-content .content-wrapper table tr td {
+  border: 1px solid green;
+}
