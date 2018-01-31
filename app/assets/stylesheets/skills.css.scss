@@ -112,7 +112,19 @@
       }
     }
     #skill-key {
-      border: 1px solid yellow;
+      color: #53cab5;
+      width: inherit;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 25px;
+      text-align: center;
+      .key {
+        color: white;
+        display: inline-block;
+        width: 18%;
+        margin: none;
+        padding: none;
+      }
     }
   }
 }
