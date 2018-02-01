@@ -5,44 +5,50 @@
 
 
 #form-container {
-  padding: 0;
-  height: 100%;
   background-image: url("no-pencil.png");
-
+  height: 100vh;
   #form-content {
-    box-shadow: 0px 0px 10px 5px #222;
-    margin: 0 45px 0 45px;
-    font-family: 'Montserrat', arial;
-    position: relative;
-    top: 0px;
-    height: 85%;
-    background-image: none;
     background-color: black;
+    background-image: none;
+    box-shadow: 0 0 5px 10px #222;
+    font-family: 'Montserrat', arial;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    top: 0;
+    margin: 0 45px;
+    position: relative;
     text-align: center;
-
-    h1 {
-      margin: auto;
-    }
-
-    form {
-      position: relative;
-      height: 90%;
-      color: black;
-      vertical-align: middle;
-
-      .field {
-        padding: 15px;
-        font-size: 18px;
-        vertical-align: middle;
-
-        .label {
-          display: block;
-          font-weight: 400;
-        }
+    #form-header {
+      flex: 1;
+      display: flex;
+      width: 100%;
+      h2{
+        margin: auto;
+        color: #43baa5;
+        font-size: 60px;
       }
-
-      .actions {
-        margin-top: 10px;
+    }
+    #links {
+      display: flex;
+      flex: 3;
+      #center {
+        width: 60%;
+        margin: auto;
+        .contact-links {
+          height: 60px;
+          display: flex;
+          .fa {
+            flex: 1;
+            border-right: 2px solid #43baa5;
+            font-size: 45px;
+          }
+          .info {
+            flex: 4;
+            font-size: 24px;
+            //border: 1px solid purple;
+          }
+        }
       }
     }
   }

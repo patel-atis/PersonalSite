@@ -1,25 +1,58 @@
-= form_with(model: contact, local: true, action: '#form-container') do |form|
-  - if contact.errors.any?
-    #error_explanation
-      %h2
-        Yikes! Looks like you have #{pluralize(contact.errors.count, "error")} :
-      %ul
-        - contact.errors.full_messages.each do |message|
-          %li= message
-  .field
-    = form.label :Name, :class => "label"
-    \:
-    \#{form.text_field :name}
-  .field
-    = form.label :Email, :class => "label"
-    \:
-    \#{form.text_field :email}
-  .field
-    = form.label :Phone, :class => "label"
-    \:
-    \#{form.text_field :phone}
-  .field
-    = form.label :Notes, :class => "label"
-    = form.text_area :notes
-  .actions
-    = form.submit :class => "all_button", :value => "Connect!"
+
+
+#form-content.content
+  #form-header
+    %h2 Contact
+  #links
+    #center
+      .contact-links
+        .fa.fa-envelope-square
+        %span.info#email
+          atish.patel95@yahoo.com
+      .contact-links
+        .fa.fa-linkedin
+        %a.info#linkedin{:href => "https://www.linkedin.com/in/atish-patel/"}
+          linkedin.com/in/atish-patel/
+      .contact-links
+        .fa.fa-instagram
+        %a.info#insta{:href => "https://www.instagram.com/ish495/"}
+          instagram.com/ish495/
+      .contact-links
+        .fa.fa-twitter
+        %a.info#twitter{:href => "https://twitter.com/ish495"}
+          twitter.com/ish495
+      .contact-links
+        .fa.fa-facebook
+        %a.info#facebook{:href => "https://www.facebook.com/atish.patel95"}
+          facebook.com/atish.patel95
+
+
+
+
+
+
+-# = form_with(model: contact, local: true, action: '#form-container') do |form|
+-#   - if contact.errors.any?
+-#     #error_explanation
+-#       %h2
+-#         Yikes! Looks like you have #{pluralize(contact.errors.count, "error")} :
+-#       %ul
+-#         - contact.errors.full_messages.each do |message|
+-#           %li= message
+-#   .field
+-#     = form.label :Name, :class => "label"
+-#     \:
+-#     \#{form.text_field :name}
+-#   .field
+-#     = form.label :Email, :class => "label"
+-#     \:
+-#     \#{form.text_field :email}
+-#   .field
+-#     = form.label :Phone, :class => "label"
+-#     \:
+-#     \#{form.text_field :phone}
+-#   .field
+-#     = form.label :Notes, :class => "label"
+-#     = form.text_area :notes
+-#   .actions
+-#     = form.submit :class => "all_button", :value => "Connect!"
