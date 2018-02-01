@@ -1,77 +1,65 @@
-/*
-*  experience section styles
-*/
 
+//experience section styles
 
 #experience-container {
-    background-image: url("elijah-flores-99207.jpg");
-    height: 200%;
-}
-
-#experience-header {
-}
-
-#experience-content {
-  font-family: 'Montserrat', arial;
-  font-weight: 100;
-
-  .content-wrapper {
-    margin: 0 200px 0 200px;
-  }
-
-  h2 {
-    color: #53cab5;
-    padding: 20px;
-    border-bottom: 1px solid rgba(83, 202, 181, .2);
+  background-image: url("elijah-flores-99207.jpg");
+  min-height: 200vh;
+  display: block;
+  overflow: auto;
+  #experience-header {
 
   }
-
-  table {
-    width: 100%;
-    padding: 0 50px 0 50px;
-
-    .row-title {
-      padding: 20px 50px 20px 0;
-      width: 250px;
-      text-align: center;
-      vertical-align: middle;
-      .name {
+  #experience-content {
+    flex-grow: 1;
+    font-family: 'Montserrat', arial;
+    font-weight: 100;
+    .content-wrapper {
+      margin: 0 200px 0 200px;
+    }
+    h2 {
+      color: #53cab5;
+      padding: 20px;
+      border-bottom: 1px solid rgba(83, 202, 181, .2);
+    }
+    table {
+      width: 100%;
+      padding: 0 50px 0 50px;
+      .row-title {
+        padding: 20px 50px 20px 0;
+        width: 250px;
+        text-align: center;
+        vertical-align: middle;
+        .name {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        .date {
+          font-size: 13px;
+          font-weight: normal;
+          font-family: 'Inconsolata', monospace;
+        }
+      }
+      .row-content {
+        padding-left: 60px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Inconsolata', monospace;
+      }
+      .info-title {
+        font-family: 'Montserrat', arial;
         font-size: 16px;
         font-weight: bold;
       }
-
-      .date {
-        font-size: 13px;
-        font-weight: normal;
-        font-family: 'Inconsolata', monospace;
-      }
-    }
-
-    .row-content {
-      padding-left: 60px;
-      font-size: 14px;
-      letter-spacing: 1px;
-      font-family: 'Inconsolata', monospace;
-    }
-
-    .info-title {
-      font-family: 'Montserrat', arial;
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    tr {
-      height: 100px;
-      td {
-        text-align: left;
-
-        ul li {
-          text-align: center;
-          list-style: none;
+      tr {
+        height: 100px;
+        td {
+          text-align: left;
+          ul li {
+            text-align: center;
+            list-style: none;
+          }
         }
       }
     }
   }
-
-
 }

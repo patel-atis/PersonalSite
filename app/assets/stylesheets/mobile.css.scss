@@ -1,28 +1,18 @@
-/*
-*
-*  mobile
-*
-*/
 
-@media screen and (max-width: 991px) and (min-width: 1px) {
+//mobile
+@media screen and (max-width: 990px) and (min-width: 1px) {
 
-  /*
-  *
-  *
-  * custom.css.scss
-  *
-  *
-  */
+  //custom.css.scss
+
   .container {
     background-attachment: scroll;
     display: block;
   }
-
   .content {
-    text-align: center;
-    display: block;
+    display: flex;
     overflow: hidden;
-
+    text-align: center;
+    padding: 0;
     ul li {
       list-style: none;
     }
@@ -215,7 +205,6 @@
           }
           #keys {
             #one-star {
-              margin-top: -14px;
             }
             .key {
               font-size: 10px;
@@ -237,13 +226,7 @@
   */
 
   #nav {
-    display: static;
-    border: 1px solid blue;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
+    display: none;
     .wrapper {
       display: none;
       a {

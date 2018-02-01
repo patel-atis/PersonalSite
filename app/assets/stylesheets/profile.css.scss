@@ -1,91 +1,100 @@
 /*
 *  about section styles
 */
-
-
 #about-container {
   background-image: url("nate-grant-346782.jpg");
-  height: 130%;
-}
-
-
-#about-content {
-  .content-wrapper {
-    font-family: 'Montserrat', arial;
-    text-align: center;
-    vertical-align: middle;
-
-    h2 {
-      padding-top: 20px;
-    }
-
-    h3 {
-      padding-bottom: 15px;
+  min-height: 120vh;
+  #about-header {
+    .header-title {
+      margin: auto 50px;
       border-bottom: 1px solid rgba(83, 202, 181, .2);
-      color: #53cab5;
     }
-
-    #me-pic {
-      order: 2;
-      display: inline-block;
-      height: 100%;
-      width: 34%;
+    .header-quote {
+      h4 {
+        font-family: 'Montserrat', arial;
+        font-size: 24px;
+        border: none;
+        margin-top: 10px;
+      }
+    }
+  }
+  #about-content {
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Montserrat', arial;
+      text-align: center;
       vertical-align: middle;
-      padding: 6px;
-      #prof-pic {
-        width: 100%;
-        position: relative;
-        top: 35%;
-        transform: translateY(-30%);
-        border-radius: 100%;
-        border: 15px solid rgba(255,255,255,.3);
-        box-shadow: 0px 0px 25px 1px #000;
+      h2 {
+        padding-top: 20px;
       }
-    }
-
-    #me-paragraph {
-      order: 1;
-      display: inline-block;
-      height: 100%;
-      float: left;
-      width: 33%;
-      padding: 10px;
-      #me-text {
-        p {
+      h3 {
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(83, 202, 181, .2);
+        color: #53cab5;
+      }
+      #me-pic {
+        border: 1px solid blue;
+        flex: 1;
+        order: 2;
+        flex-basis: 20%;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 6px;
+        #prof-pic {
+          width: 100%;
+          position: relative;
+          top: 35%;
+          transform: translateY(-30%);
+          border-radius: 100%;
+          border: 15px solid rgba(255,255,255,.3);
+          box-shadow: 0px 0px 25px 1px #000;
+        }
+      }
+      #me-paragraph {
+        border: 1px solid blue;
+        flex: 1;
+        order: 1;
+        flex-basis: 20%;
+        display: inline-block;
+        float: left;
+        padding: 10px;
+        #me-text {
+          min-width: 200px;
+          height: 420px;
           position: relative;
           top: 35%;
           transform: translateY(-40%);
-          border: 1px solid green;
+          p {
+            position: relative;
+            top: 35%;
+            transform: translateY(-40%);
+            border: 1px solid green;
+          }
         }
-        min-width: 200px;
-        height: 420px;
-        position: relative;
-        top: 35%;
-        transform: translateY(-40%);
       }
-    }
-
-    #me-info {
-      order: 3;
-      display: inline-block;
-      margin-top: 0px;
-      padding: 10px;
-      height: 100%;
-      float: right;
-      width: 33%;
-      #info-text {
-        height: 420px;
-        position: relative;
-        top: 35%;
-        transform: translateY(-40%);
-        ul {
+      #me-info {
+        border: 1px solid blue;
+        flex: 1;
+        order: 3;
+        flex-basis: 20%;
+        display: inline-block;
+        margin-top: 0px;
+        padding: 10px;
+        float: right;
+        #info-text {
+          height: 420px;
           position: relative;
           top: 35%;
           transform: translateY(-40%);
-        }
-
-        ul li {
-          list-style: none;
+          ul {
+            position: relative;
+            top: 35%;
+            transform: translateY(-40%);
+          }
+          ul li {
+            list-style: none;
+          }
         }
       }
     }

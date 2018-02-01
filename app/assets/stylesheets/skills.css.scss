@@ -3,127 +3,123 @@
 */
 #skills-container {
   background-image: url("mike-wilson-138129.jpg");
-  height: 160%;
-}
-
-#skills-header {
-}
-
-#skills-content {
-  font-family: 'Montserrat', arial;
-  .content-wrapper {
-    padding-top: 10px;
-    #skill-list {
-      display: inline-block;
-      h2 {
-        color: #53cab5;
-        padding: 20px;
-        border-bottom: 1px solid rgba(83, 202, 181, .2);
-      }
-
-      .col-md-6 {
-        text-align: center;
-        ul li {
-          padding: 10px;
-          position: relative;
-          list-style: none;
-
-          .ability-title {
-            float: left;
-            font-size: 12px;
-            letter-spacing: 2.5px;
-          }
-
-          .ability-rating {
-            float: right;
-            font-size: 20px;
-            letter-spacing: .1px;
-            width: 125px;
-
-            .glyphicon-star {
-              color: white;
-              width: 20px;
-              letter-spacing: .1px;
-            }
-
-            .glyphicon-star-empty {
-              width: 20px;
-              letter-spacing: .1px;
-              color: #aaa;
-              opacity: .6;
-            }
-          }
-        }
-      }
-    }
-
-    #lang-list {
-      display: inline-block;
-      h2 {
-        color: #53cab5;
-        padding: 20px;
-        border-bottom: 1px solid rgba(83, 202, 181, .2);
-      }
-
-      .col-md-6 {
-        text-align: center;
-        ul li {
-          letter-spacing: .1;
-          padding: 10px;
-          position: relative;
-          list-style: none;
-          display: inline;
-
-          .ability-title {
-            float: left;
-            font-size: 12px;
-            letter-spacing: 2.5px;
-          }
-
-          .ability-rating {
-            height: 28px;
-            float: right;
-            font-size: 20px;
-            letter-spacing: .1px;
-            width: 125px;
-
-            .glyphicon-star {
-              margin: 0;
-              padding: 0;
-              display: inline;
-              color: white;
-              width: 20px;
-              height: 20px;
-              letter-spacing: .1px;
-            }
-
-            .glyphicon-star-empty {
-              margin: 0;
-              padding: 0;
-              display: inline;
-              width: 20px;
-              height: 20px;
-              letter-spacing: .1px;
-              color: #aaa;
-              opacity: .6;
-            }
-          }
-        }
-      }
-    }
-    #skill-key {
-      color: #53cab5;
-      width: inherit;
-      position: absolute;
-      bottom: 0;
-      margin-bottom: 25px;
-      text-align: center;
-      .key {
-        color: white;
+  min-height: 160vh;
+  display: flex;
+  flex-flow: column;
+  #skills-header {
+  }
+  #skills-content {
+    font-family: 'Montserrat', arial;
+    .content-wrapper {
+      padding-top: 10px;
+      #skill-list {
         display: inline-block;
-        width: 18%;
-        margin: none;
-        padding: none;
+        h2 {
+          color: #53cab5;
+          padding: 20px;
+          border-bottom: 1px solid rgba(83, 202, 181, .2);
+        }
+        .col-md-6 {
+          text-align: center;
+          ul li {
+            padding: 10px;
+            position: relative;
+            list-style: none;
+
+            .ability-title {
+              float: left;
+              font-size: 12px;
+              letter-spacing: 2.5px;
+            }
+            .ability-rating {
+              float: right;
+              font-size: 20px;
+              letter-spacing: .1px;
+              width: 125px;
+
+              .glyphicon-star {
+                color: white;
+                width: 20px;
+                letter-spacing: .1px;
+              }
+              .glyphicon-star-empty {
+                width: 20px;
+                letter-spacing: .1px;
+                color: #aaa;
+                opacity: .6;
+              }
+            }
+          }
+        }
+      }
+      #lang-list {
+        display: inline-block;
+        h2 {
+          color: #53cab5;
+          padding: 20px;
+          border-bottom: 1px solid rgba(83, 202, 181, .2);
+        }
+        .col-md-6 {
+          text-align: center;
+          ul li {
+            letter-spacing: .1;
+            padding: 10px;
+            position: relative;
+            list-style: none;
+            display: inline;
+            .ability-title {
+              float: left;
+              font-size: 12px;
+              letter-spacing: 2.5px;
+            }
+            .ability-rating {
+              height: 28px;
+              float: right;
+              font-size: 20px;
+              letter-spacing: .1px;
+              width: 125px;
+              .glyphicon-star {
+                margin: 0;
+                padding: 0;
+                display: inline;
+                color: white;
+                width: 20px;
+                height: 20px;
+                letter-spacing: .1px;
+              }
+              .glyphicon-star-empty {
+                margin: 0;
+                padding: 0;
+                display: inline;
+                width: 20px;
+                height: 20px;
+                letter-spacing: .1px;
+                color: #aaa;
+                opacity: .6;
+              }
+            }
+          }
+        }
+      }
+      #skill-key {
+        color: #53cab5;
+        width: inherit;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        h2 {
+          font-size: 24px;
+          margin: 0;
+        }
+        .key {
+          color: white;
+          display: inline-block;
+          width: 18%;
+          margin: none;
+          padding: none;
+          font-size: 12px;
+        }
       }
     }
   }
