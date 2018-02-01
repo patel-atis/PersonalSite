@@ -30,24 +30,36 @@
 
   .header {
     background-image: none;
-    text-align: center;
     border-bottom: 1px solid rgba(10, 10, 10, .2);
+    text-align: center;
     h1 {
       font-size: 40px;
       color: #53cab5;
     }
   }
 
+//landing page mobile styles
   #home-container {
-    background-image: url("nick-nice-328476.jpg");
     background-attachment: scroll;
+    background-image: url('yousif-malibiran-182543.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 0;
     height: 100vh;
-    #middle {
+    width: 100%;
+    #home-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+      display: flex;
+      height: 100%;
+      width: 100%;
       #center_peice {
-        margin-top: 40vh;
+        margin: auto;
         text-align: center;
-        #title {
-          font-size: 28px;
+        h1#title {
+          color: white;
+          letter-spacing: 3px;
           hr {
             border: 1px solid rgba(83, 202, 181, .4);
           }
