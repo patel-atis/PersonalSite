@@ -142,28 +142,6 @@ html{
     }
 }
 
-.all_button {
-    box-shadow: 2px 2px 5px #53cab5;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: white;
-    font-size: 18px;
-    border: 1px solid #53cab5;
-    border-radius: 10px;
-    font-weight: normal;
-    width: 120px;
-    height: 50px;
-
-    &:hover {
-      box-shadow: 4px 4px 10px #53cab5;
-      margin-top: -2px;
-      margin-left: -2px;
-    }
-}
-
 /*footer*/
 
 #footer {
