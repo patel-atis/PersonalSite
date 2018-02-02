@@ -15,6 +15,7 @@ Rails.application.config.assets.precompile += %w(
   custom.js
   experience.css.scss
   profile.css.scss
+  landing.css.scss
   skills.css.scss
   custom.css.scss
   form.css.scss
