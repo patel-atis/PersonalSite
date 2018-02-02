@@ -1,0 +1,256 @@
+/* line 3, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#home-container {
+  min-height: 100vh;
+  display: flex;
+}
+/* line 6, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#home-container #center_peice {
+  text-align: center;
+  width: 500px;
+  display: block;
+}
+/* line 10, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#home-container #center_peice #title {
+  color: #ffffff;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 38px;
+  letter-spacing: 10px;
+  width: 100%;
+}
+/* line 19, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#home-container #center_peice #title hr {
+  opacity: 0.2;
+  border-color: #53cab5;
+}
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#home-container #center_peice #title #name {
+  font-family: 'Montserrat', sans-serif;
+  color: #53cab5;
+}
+
+/*
+* full page styles
+*/
+/* line 38, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+html {
+  height: 100%;
+}
+/* line 40, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+html body {
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+/* line 46, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+html body #homepage {
+  display: flex;
+  flex-flow: column;
+  background-image: url("kelly-sikkema-450720.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 64, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 82, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#about-container, #experience-container,
+#form-container, #skills-container {
+  width: 100%;
+}
+
+/* line 87, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 300px;
+  width: 100%;
+  z-index: 45;
+  box-shadow: 0px -5px 50px 5px black, 0px 5px 50px 5px black;
+  text-align: center;
+}
+/* line 98, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header h1 {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  font-size: 80px;
+  font-weight: normal;
+  color: #53cab5;
+  font-family: 'Handlee', cursive;
+}
+/* line 111, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header .header-title {
+  height: 40%;
+  text-align: center;
+}
+/* line 114, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header .header-title h1 {
+  position: relative;
+  width: 70%;
+  bottom: 0px;
+  top: 0px;
+  margin: 25px auto;
+  vertical-align: middle;
+  display: block;
+  transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+}
+/* line 127, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header .header-quote {
+  height: 60%;
+}
+/* line 129, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header .header-quote h4 {
+  font-family: 'Handlee', cursive;
+  border-top: 1px solid rgba(83, 202, 181, 0.2);
+  vertical-align: middle;
+  display: block;
+  position: relative;
+  bottom: 0px;
+  margin: auto;
+  width: 70%;
+}
+/* line 138, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.header .header-quote h4 blockquote {
+  font-weight: 100;
+  font-size: 29px;
+  font-family: 'Tangerine', cursive;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 149, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.content {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  margin-top: 300px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: url("no-pencil.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/* line 168, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.content .content-wrapper {
+  margin-top: 5px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  height: 100%;
+}
+
+/* line 176, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.all_button {
+  box-shadow: 2px 2px 5px #53cab5;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  font-size: 18px;
+  border: 1px solid #53cab5;
+  border-radius: 10px;
+  font-weight: normal;
+  width: 120px;
+  height: 50px;
+}
+/* line 191, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+.all_button:hover {
+  box-shadow: 4px 4px 10px #53cab5;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+/*footer*/
+/* line 200, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer {
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+/* line 207, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links {
+  vertical-align: middle;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+/* line 215, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa {
+  padding: 20px;
+  font-size: 22px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+/* line 225, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa:hover {
+  opacity: 0.7;
+}
+/* line 228, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* line 232, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* line 236, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* line 240, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#footer #footer-links .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* line 247, /Users/admin/PersonalSite/app/assets/stylesheets/custom.css.scss */
+#error_explanation {
+  color: white;
+}

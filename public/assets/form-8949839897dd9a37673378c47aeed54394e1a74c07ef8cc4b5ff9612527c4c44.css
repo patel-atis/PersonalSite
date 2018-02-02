@@ -1,0 +1,60 @@
+/*
+*  form section styles
+*/
+/* line 8, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container {
+  background-image: url("no-pencil.png");
+  height: 100vh;
+}
+/* line 11, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content {
+  background-color: black;
+  background-image: none;
+  box-shadow: 0 0 5px 10px #222;
+  font-family: 'Montserrat', arial;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  top: 0;
+  margin: 0 45px;
+  position: relative;
+  text-align: center;
+}
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #form-header {
+  flex: 1;
+  display: flex;
+  width: 100%;
+}
+/* line 27, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #form-header h2 {
+  margin: auto;
+  color: #43baa5;
+  font-size: 60px;
+}
+/* line 33, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #links {
+  display: flex;
+  flex: 3;
+}
+/* line 36, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #links #center {
+  width: 60%;
+  margin: auto;
+}
+/* line 39, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #links #center .contact-links {
+  height: 60px;
+  display: flex;
+}
+/* line 42, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #links #center .contact-links .fa {
+  flex: 1;
+  border-right: 2px solid #43baa5;
+  font-size: 45px;
+}
+/* line 47, /Users/admin/PersonalSite/app/assets/stylesheets/form.css.scss */
+#form-container #form-content #links #center .contact-links .info {
+  flex: 4;
+  font-size: 24px;
+}
