@@ -4,4 +4,12 @@
       #name ATISH PATEL
       %hr/
       DEVELOPER
-  %button#homebutton.glyphicon.glyphicon-chevron-down
+  %button#homebutton
+    %span.glyphicon.glyphicon-chevron-down#arrow
+
+:javascript
+  $("#homebutton").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#about-container").offset().top},
+          'slow');
+  });
