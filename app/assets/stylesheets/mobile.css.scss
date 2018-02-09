@@ -7,6 +7,7 @@
   .container {
     background-attachment: scroll;
     display: block;
+    margin: 0;
   }
   .content {
     display: flex;
@@ -26,6 +27,10 @@
       font-size: 40px;
       color: #53cab5;
     }
+  }
+
+  *:focus {
+    outline: 0 !important;
   }
 
 //landing page mobile styles
@@ -58,6 +63,18 @@
           }
         }
       }
+      button {
+        background-color: black;
+        position: absolute;
+        bottom: 0px;
+        border: 0;
+        height: 80px;
+        width: 100%;
+        .glyphicon {
+          font-size: 40px;
+          color: white;
+        }
+      }
     }
   }
 
@@ -85,7 +102,6 @@
           color: #53cab5;
         }
         #me-paragraph{
-
         }
         #me-pic{
           #prof-pic {
@@ -119,7 +135,6 @@
   #homepage #experience-container {
     background-color: #f4efe0;
     #experience-header {
-
     }
     #experience-content{
       .content-wrapper{
@@ -134,18 +149,17 @@
           text-align: left;
           .row-title{
             line-height: 14px;
+            margin: 30px 0 7px 0;
             .name {
               font-size: 20px;
               font-weight: 400;
-              hr {
-
-              }
             }
             .date {
-
+              margin-top: 4px;
             }
           }
           .row-content {
+
             .info-title{
               .intro {
                 display: none;
