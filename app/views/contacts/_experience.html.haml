@@ -10,13 +10,13 @@
     #education
       %h2 Education
       %table#education-table
-        %tr.card
-          %td.row-title.front#bentley
+        %tr
+          %td.row-title
             %span.name
               Bentley University
-            %br
+              %hr
             %span.date Aug 2013 - May 2017
-          %td.back.row-content{:colspan => "4"}
+          %td.row-content{:colspan => "4"}
             %span.info-title
               Major: Economics and Finance
               %br
@@ -29,13 +29,13 @@
               %li CS280 - Object Oriented Development
               %li CS150 - Data and Information Management
               %li CS240 - Networking  Communication Infrastructure
-        %tr.card
-          %td.row-title.front#odin
+        %tr
+          %td.row-title
             %span.name
               The Odin Project
-            %br
+              %hr
             %span.date Dec 2016 - Dec 2017
-          %td.back.row-content{:colspan => "4"}
+          %td.row-content{:colspan => "4"}
             %span.info-title
               Open source web development course based on Ruby on Rails
               %br
@@ -48,13 +48,13 @@
               %li MVC pattern
               %li Cookies and Sessions
               %li Encryption and authentication
-        %tr.card
-          %td.row-title.front#cs50
+        %tr
+          %td.row-title
             %span.name
               CS50  EdX
-            %br
+              %hr
             %span.date Jun 2016 - Aug 2016
-          %td.back.row-content{:colspan => "4"}
+          %td.row-content{:colspan => "4"}
             %span.info-title
               Introduction to computer science course from Harvard
               %br
@@ -67,28 +67,25 @@
     #jobs
       %h2 Employment History
       %table#job-table
-        %tr.card
-          %td.row-title.front#uga
+        %tr
+          %td.row-title
             %span.name Office of Undergraduate Admissions
-            %br
+            %hr/
             %span.date Jan 2016 - May 2017
-          %td.back.row-content{colspan: "4"}
+          %td.row-content{colspan: "4"}
             %span.info-title Campus Ambassador
             %ul
               %li Tended to perspective students visiting Bentley's campus
               %li Planned, Prepared and executed multiple open house events
               %li Gave campus tours to highlight the strengths of the university
-        %tr.card
-          %td.row-title.front#equivest
+        %tr
+          %td.row-title
             %span.name Equivest Asset Management
-            %br
+            %hr/
             %span.date Jun 2015 - Aug 2015
-          %td.back.row-content{colspan: "4"}
+          %td.row-content{colspan: "4"}
             %span.info-title Financial Analyst Intern
             %ul
               %li Calculated relevant valuations for prospective investments
               %li Modeled financial data using excel
               %li Went to shareholder meetings to gather relevant company updates
-
-:javascript
-  $(".card").flip();
