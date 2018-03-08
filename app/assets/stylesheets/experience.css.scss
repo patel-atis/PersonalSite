@@ -1,8 +1,9 @@
 
+//variables
+$accent-green: #53cab5;
 //experience section styles
 
 #experience-container {
-  //background-image: url("elijah-flores-99207.jpg");
   min-height: 280vh;
   display: block;
   overflow: auto;
@@ -22,7 +23,7 @@
         margin: auto;
         flex: 1;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
           padding: 20px;
           border-bottom: 1px solid rgba(83, 202, 181, .2);
         }
@@ -31,7 +32,7 @@
         margin: auto;
         flex: 1;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
           padding: 20px;
           border-bottom: 1px solid rgba(83, 202, 181, .2);
         }

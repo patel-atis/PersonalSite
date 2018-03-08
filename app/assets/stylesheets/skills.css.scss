@@ -1,9 +1,15 @@
+//variables
+$accent-green: #53cab5;
+
+
 /*
 *  skills section styles
 */
 #skills-container {
-  background-image: url("mike-wilson-138129.jpg");
-  min-height: 160vh;
+  //background-image: url("mike-wilson-138129.jpg");
+  margin: 0 auto;
+  padding: 620px 0;
+  color: black;
   #skills-header {
     height: 320px;
   }
@@ -18,7 +24,7 @@
         flex: 1.7;
         display: inline-block;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
           padding: 20px;
           border-bottom: 1px solid rgba(83, 202, 181, .2);
         }
@@ -41,7 +47,7 @@
               width: 125px;
 
               .glyphicon-star {
-                color: white;
+                color: black;
                 width: 20px;
                 letter-spacing: .1px;
               }
@@ -59,7 +65,7 @@
         flex: 1;
         display: inline-block;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
           padding: 20px;
           border-bottom: 1px solid rgba(83, 202, 181, .2);
         }
@@ -86,7 +92,7 @@
                 margin: 0;
                 padding: 0;
                 display: inline;
-                color: white;
+                color: black;
                 width: 20px;
                 height: 20px;
                 letter-spacing: .1px;
@@ -107,18 +113,17 @@
       }
       #skill-key {
         flex: 1;
-        color: #53cab5;
         width: inherit;
         position: absolute;
         bottom: 0;
         margin-bottom: 10px;
         text-align: center;
         h2 {
+          color: $accent-green;
           font-size: 24px;
           margin: 0;
         }
         .key {
-          color: white;
           display: inline-block;
           width: 18%;
           margin: none;

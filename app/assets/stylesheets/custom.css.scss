@@ -1,14 +1,17 @@
+//variables
+$body-bg: transparent;
+$bg-color1: #f4efe0;
+$accent-green: #53cab5;
+
 /*
 * full page styles
 */
-
-$body-bg: transparent;
 
 html{
   height: 100%;
   body {
     height: 100%;
-    color: white;
+    color: black;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
@@ -50,18 +53,24 @@ html{
 
 #about-container,#experience-container,
 #form-container, #skills-container {
-    width: 100%;
+  width: 100%;
+}
+
+#about-container, #skills-container {
+  background-color: white;
+}
+
+#experience-container, #form-container {
+  background-color: $bg-color1;
 }
 
 .header {
-    background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0px;
     left: 0px;
     height: 200px;
     width: 100%;
     z-index: 45;
-    box-shadow: 0px -5px 50px 5px black;
     text-align: center;
 
     h1 {
@@ -73,7 +82,7 @@ html{
       -ms-transform: translateY(-50%);
       font-size: 80px;
       font-weight: normal;
-      color: #53cab5;
+      color: $accent-green;
       font-family: 'Handlee', cursive;
     }
 

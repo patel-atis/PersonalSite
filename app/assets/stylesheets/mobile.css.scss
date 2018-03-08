@@ -1,3 +1,5 @@
+//variables
+$accent-green: #53cab5;
 
 //mobile
 @media screen and (max-width: 990px) and (min-width: 1px) {
@@ -25,7 +27,7 @@
     text-align: center;
     h1 {
       font-size: 40px;
-      color: #53cab5;
+      color: $accent-green;
     }
   }
 
@@ -59,7 +61,7 @@
             border: 1px solid rgba(83, 202, 181, .4);
           }
           #name {
-            color: #53cab5;
+            color: $accent-green;
           }
         }
       }
@@ -99,7 +101,7 @@
     #about-content{
       .content-wrapper{
         h3{
-          color: #53cab5;
+          color: $accent-green;
         }
         #me-paragraph{
         }
@@ -140,7 +142,7 @@
       .content-wrapper{
         width: 100%;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
         }
         table, thead, tbody, th, td, tr {
       		display: block;
@@ -189,7 +191,7 @@
       .content-wrapper{
         width: 100%;
         h2 {
-          color: #53cab5;
+          color: $accent-green;
           padding: 5px;
         }
         ul li {

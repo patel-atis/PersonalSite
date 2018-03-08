@@ -1,8 +1,13 @@
+//variables
+$accent-green: #53cab5;
+
 /*
 *  about section styles
 */
 #about-container {
-  min-height: 120vh;
+  margin: 0 auto;
+  padding: 400px 0;
+  color: black;
   #about-header {
     .header-title {
       margin: auto 50px;
@@ -29,7 +34,7 @@
       h3 {
         padding-bottom: 15px;
         border-bottom: 1px solid rgba(83, 202, 181, .2);
-        color: #53cab5;
+        color: $accent-green;
       }
       #me-pic {
         flex: 1;
@@ -44,7 +49,7 @@
           top: 35%;
           transform: translateY(-30%);
           border-radius: 100%;
-          border: 15px solid rgba(255,255,255,.3);
+          border: 15px solid rgba(0,0,0,.3);
           box-shadow: 0px 0px 25px 1px #000;
         }
       }

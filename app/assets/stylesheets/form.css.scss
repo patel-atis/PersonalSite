@@ -1,14 +1,16 @@
 /*
 *  form section styles
 */
-
-
+//variables
+$accent-green: #53cab5;
+$bg-color1: #f4efe0;
 
 #form-container {
   //background-image: url("no-pencil.png");
   height: 100vh;
+  color: black;
   #form-content {
-    background-color: black;
+    background-color: $bg-color1;
     background-image: none;
     box-shadow: 0 0 5px 10px #222;
     font-family: 'Montserrat', arial;
@@ -25,7 +27,7 @@
       width: 100%;
       h2{
         margin: auto;
-        color: #43baa5;
+        color: $accent-green;
         font-size: 60px;
       }
     }

@@ -1,12 +1,13 @@
 #home-container {
   min-height: 100vh;
   display: flex;
+  color: white;
+  background-color: rgba(83, 180, 181, .4);
   #center_peice {
     text-align: center;
     width: 500px;
     display: block;
     #title {
-      color: #ffffff;
       display: block;
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
@@ -16,11 +17,10 @@
       width: 100%;
       hr {
         opacity: 0.2;
-        border-color: #53cab5;
+        border-color: white;
       }
       #name {
         font-family: 'Montserrat', sans-serif;
-        color: #53cab5;
       }
     }
   }
