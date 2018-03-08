@@ -1,19 +1,25 @@
-
 //variables
 $accent-green: #53cab5;
 //experience section styles
 
 #experience-container {
-  min-height: 280vh;
-  display: block;
-  overflow: auto;
+  margin: 0 auto;
+  padding: 840px 0;
+  display: flex;
+  color: black;
   #experience-header {
     height: 320px;
+    margin: auto;
+    flex: 1;
+    order: 1;
   }
   #experience-content {
+    margin: auto;
+    flex: 1;
+    order: 2;
     font-family: 'Montserrat', arial;
     font-weight: 100;
-    margin-top: 320px;
+    margin-top: 310px;
     .content-wrapper {
       display: flex;
       flex-direction: column;
