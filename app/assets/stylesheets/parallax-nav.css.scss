@@ -3,12 +3,13 @@
   #parallax-nav {
     a:hover .label {
       display: block;
-      margin-left: -100px;
+      margin-left: -120px;
+      color: black;
     }
 
     a:hover {
-      font-size: 14px;
-      color: #53cab5;
+      font-size: 16px;
+      color: gray;
       text-decoration: none;
       background: none;
     }
