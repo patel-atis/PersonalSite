@@ -39,7 +39,7 @@
     }
   }
 
-  button:active {
-    border: 0;
+  button:focus {
+    outline: none;
   }
 }
