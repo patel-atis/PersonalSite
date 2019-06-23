@@ -78,8 +78,9 @@ $accent-green: #53cab5;
             font-weight: bold;
           }
           ul li {
-            text-align: center;
-            list-style: none;
+            text-align: left;
+            list-style: square;
+            font-size: 13px;
           }
         }
       }
