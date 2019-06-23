@@ -1,3 +1,3 @@
 # README
 
-This is my Interactive Resume.
+This is my Internet Resume.
