@@ -1,0 +1,314 @@
+@media screen and (max-width: 990px) and (min-width: 1px) {
+  /* line 9, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  .container {
+    background-attachment: scroll;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 14, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  .content {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+  }
+  /* line 19, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  .content ul li {
+    list-style: none;
+  }
+
+  /* line 24, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  .header {
+    background-image: none;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.2);
+    text-align: center;
+  }
+  /* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  .header h1 {
+    font-size: 40px;
+    color: #53cab5;
+  }
+
+  /* line 34, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  *:focus {
+    outline: 0 !important;
+  }
+
+  /* line 39, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container {
+    background-attachment: scroll;
+    background-image: url("yousif-malibiran-182543-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  /* line 48, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  /* line 54, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content #center_peice {
+    margin: auto;
+    text-align: center;
+  }
+  /* line 57, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content #center_peice h1#title {
+    color: white;
+    letter-spacing: 3px;
+  }
+  /* line 60, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content #center_peice h1#title hr {
+    border: 1px solid rgba(83, 202, 181, 0.4);
+  }
+  /* line 63, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content #center_peice h1#title #name {
+    color: #53cab5;
+  }
+  /* line 68, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content button {
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    border: 0;
+    height: 80px;
+    width: 100%;
+  }
+  /* line 75, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #home-container #home-content button .glyphicon {
+    font-size: 40px;
+    color: white;
+  }
+
+  /*
+  *
+  *
+  * profile.css.scss
+  *
+  *
+  */
+  /* line 97, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-container #about-header h2 {
+    font-size: 18px;
+  }
+  /* line 103, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-container #about-content .content-wrapper h3 {
+    color: #53cab5;
+  }
+  /* line 109, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-container #about-content .content-wrapper #me-pic #prof-pic {
+    border-radius: 100%;
+    border: 15px solid rgba(0, 0, 0, 0.3);
+    margin: 5px;
+  }
+  /* line 117, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-container #about-content .content-wrapper #me-info #info-text h6 {
+    font-weight: bold;
+  }
+  /* line 120, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #about-container #about-content .content-wrapper #me-info #info-text ul {
+    padding: 0;
+  }
+
+  /*
+  *
+  *
+  * experience.css.scss
+  *
+  *
+  */
+  /* line 137, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container {
+    background-color: #f4efe0;
+  }
+  /* line 142, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper {
+    width: 100%;
+  }
+  /* line 144, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper h2 {
+    color: #53cab5;
+  }
+  /* line 147, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table, #homepage #experience-container #experience-content .content-wrapper thead, #homepage #experience-container #experience-content .content-wrapper tbody, #homepage #experience-container #experience-content .content-wrapper th, #homepage #experience-container #experience-content .content-wrapper td, #homepage #experience-container #experience-content .content-wrapper tr {
+    display: block;
+  }
+  /* line 150, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table {
+    text-align: left;
+  }
+  /* line 152, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table .row-title {
+    line-height: 14px;
+    margin: 30px 0 7px 0;
+  }
+  /* line 155, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table .row-title .name {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* line 159, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table .row-title .date {
+    margin-top: 4px;
+  }
+  /* line 166, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table .row-content .info-title .intro {
+    display: none;
+  }
+  /* line 170, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #experience-container #experience-content .content-wrapper table .row-content ul li {
+    display: none;
+  }
+
+  /*
+  *
+  *
+  * skills.css.scss
+  *
+  *
+  */
+  /* line 191, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper {
+    width: 100%;
+  }
+  /* line 193, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper h2 {
+    color: #53cab5;
+    padding: 5px;
+  }
+  /* line 197, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper ul li {
+    height: 10px;
+  }
+  /* line 199, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper ul li .ability-title {
+    position: absolute;
+    left: 0px;
+  }
+  /* line 203, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper ul li .ability-rating {
+    position: absolute;
+    right: 0px;
+  }
+  /* line 206, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper ul li .ability-rating .glyphicon-star {
+    color: #43baa5;
+  }
+  /* line 209, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper ul li .ability-rating .glyphicon-star-empty {
+    color: gray;
+  }
+  /* line 215, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper #skill-key {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+  }
+  /* line 220, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper #skill-key h2 {
+    margin: 0;
+    font-size: 15px;
+  }
+  /* line 227, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #skills-container #skills-content .content-wrapper #skill-key #keys .key {
+    font-size: 10px;
+    width: 20%;
+    float: left;
+  }
+
+  /*
+  *
+  *
+  * top-nav.css.scss
+  *
+  *
+  */
+  /* line 246, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #nav {
+    display: none;
+  }
+  /* line 248, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #nav .wrapper {
+    display: none;
+  }
+  /* line 250, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #nav .wrapper a {
+    display: none;
+  }
+
+  /*
+  *
+  *
+  * parallax-nav.css.scss
+  *
+  *
+  */
+  /* line 264, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #parallax-nav {
+    border: 1px solid blue;
+    display: none;
+  }
+  /* line 267, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #parallax-nav ul.nav {
+    display: none;
+  }
+
+  /*
+  *
+  *
+  * form.css.scss
+  *
+  *
+  */
+  /* line 280, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container {
+    background-color: #f4efe0;
+    height: 100vh;
+  }
+  /* line 283, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  /* line 287, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #form-header {
+    display: flex;
+    flex: 1;
+  }
+  /* line 290, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #form-header h2 {
+    margin: auto;
+    color: #43baa5;
+  }
+  /* line 295, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #links {
+    margin: auto;
+    flex: 3;
+    width: 250px;
+  }
+  /* line 299, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #links .contact-links {
+    display: flex;
+    height: 50px;
+  }
+  /* line 302, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #links .contact-links .fa {
+    flex: 1;
+    border-right: 2px solid #43baa5;
+    font-size: 30px;
+    margin-top: 12px;
+  }
+  /* line 308, /Users/admin/PersonalSite/app/assets/stylesheets/mobile.css.scss */
+  #homepage #form-container #form-content #links .contact-links .info {
+    margin: auto;
+    flex: 4;
+  }
+}

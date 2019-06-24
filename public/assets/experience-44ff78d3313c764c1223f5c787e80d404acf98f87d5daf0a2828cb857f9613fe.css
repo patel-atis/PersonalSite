@@ -1,0 +1,99 @@
+/* line 5, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container {
+  margin: 0 auto;
+  padding: 840px 0;
+  display: flex;
+  color: black;
+}
+/* line 10, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-header {
+  height: 320px;
+  margin: auto;
+  flex: 1;
+  order: 1;
+}
+/* line 16, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content {
+  margin: auto;
+  flex: 1;
+  order: 2;
+  font-family: 'Montserrat', arial;
+  font-weight: 100;
+  margin-top: 310px;
+}
+/* line 23, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+/* line 28, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper #education {
+  margin: auto;
+  flex: 1;
+}
+/* line 31, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper #education h2 {
+  color: #53cab5;
+  padding: 20px;
+  border-bottom: 1px solid rgba(83, 202, 181, 0.2);
+}
+/* line 37, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper #jobs {
+  margin: auto;
+  flex: 1;
+}
+/* line 40, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper #jobs h2 {
+  color: #53cab5;
+  padding: 20px;
+  border-bottom: 1px solid rgba(83, 202, 181, 0.2);
+}
+/* line 47, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table {
+  border-collapse: separate;
+  border-spacing: 0px 30px;
+  width: 100%;
+}
+/* line 51, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-title {
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+}
+/* line 56, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-title .name {
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+}
+/* line 62, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-title .date {
+  margin: auto;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: 'Inconsolata', monospace;
+}
+/* line 69, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-content {
+  margin: auto;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', arial;
+}
+/* line 75, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-content .info-title {
+  font-family: 'Montserrat', arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 80, /Users/admin/PersonalSite/app/assets/stylesheets/experience.css.scss */
+#experience-container #experience-content .content-wrapper table .row-content ul li {
+  text-align: left;
+  list-style: square;
+  font-size: 13px;
+}
