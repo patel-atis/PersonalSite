@@ -13,7 +13,7 @@ gem 'heroku-deflater', :group => :production
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 # Markup with HAMl
 gem 'haml'
 # Boostrap for styles
