@@ -8,9 +8,9 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "exports-loader": "~0.6.2",
+    "exports-loader": "~4.0.0",
     "expose-loader": "~0.6.0",
-    "imports-loader": "~0.6.3",
+    "imports-loader": "~4.0.1",
     "lodash": "~2.4.1"
   }
 }
